@@ -8,6 +8,8 @@ import juliasChildren from "../../assets/images/Julias_Children_Screenshot_updat
 import weatherDashbord from "../../assets/images/Weather Dashboard.jpg";
 // imports the image for the Social-Network-API
 import socialNetwork from "../../assets/images/Social-Network-API.jpg";
+// imports the image for the PWA-Text-Editor app
+import textEditor from "../../assets/images/app_screenshot.jpg";
 
 function Portfolio() {
   // six projects
@@ -69,7 +71,6 @@ function Portfolio() {
           <div className="row d-inline-flex">
             <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
               <h2 className="card-header bg-dark text-light d-flex-inline">
-                {" "}
                 Social-Network-API
               </h2>
               <a href="https://github.com/AlexandertheGreat491/Social-Network-API.git">
@@ -82,6 +83,19 @@ function Portfolio() {
             </div>
           </div>
           {/* PWA-Text-Editor */}
+          <div className="row d-inline-flex">
+            <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
+              <h2 className="card-header bg-dark text-light d-flex-inline">
+                PWA-Text-Editor
+              </h2>
+              <a href="https://nameless-dawn-90589.herokuapp.com/">
+                <img src={textEditor} alt="text" />
+              </a>
+              <a href="https://github.com/AlexandertheGreat491/PWA-Text-Editor.git">
+                PWA-Text-Editor Repository
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </article>
