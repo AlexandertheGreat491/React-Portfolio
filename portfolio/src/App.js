@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import Header from './components/Header';
+import About from './components/About';
 import './App.css';
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
       <header>
         <Header></Header>
       </header>
+      <main>
+        <About></About>
+      </main>
     </div>
   );
 }
