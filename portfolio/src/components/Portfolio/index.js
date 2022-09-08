@@ -23,7 +23,8 @@ import eCommerce from "../../assets/images/E_Commerce_Backend.jpg";
 function Portfolio() {
   // six projects
   return (
-    <article className="container">
+    <article id="Portfolio" className="container">
+      <h1>Portfolio</h1>
       {/* Movie Nerds */}
       <div className="row">
         <div>
