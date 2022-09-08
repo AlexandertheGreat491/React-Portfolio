@@ -6,6 +6,8 @@ import movieNerds from "../../assets/images/Movie_Nerds.jpg";
 import juliasChildren from "../../assets/images/Julias_Children_Screenshot_updated.jpg";
 // imports the image for the Weather Dashboard app
 import weatherDashbord from "../../assets/images/Weather Dashboard.jpg";
+// imports the image for the Social-Network-API
+import socialNetwork from "../../assets/images/Social-Network-API.jpg";
 
 function Portfolio() {
   // six projects
@@ -64,6 +66,21 @@ function Portfolio() {
             </div>
           </div>
           {/* Social-Network-API */}
+          <div className="row d-inline-flex">
+            <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
+              <h2 className="card-header bg-dark text-light d-flex-inline">
+                {" "}
+                Social-Network-API
+              </h2>
+              <a href="https://github.com/AlexandertheGreat491/Social-Network-API.git">
+                <img
+                  src={socialNetwork}
+                  style={{ width: "20%" }}
+                  alt="social"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </article>
