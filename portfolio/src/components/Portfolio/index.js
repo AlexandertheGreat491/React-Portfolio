@@ -1,16 +1,22 @@
 // imports react
 import React from "react";
+
 // imports the title images for each project
 // imports the image for the Movie Nerds app
 import movieNerds from "../../assets/images/Movie_Nerds.jpg";
+
 // imports the image for the Julia's Children app
 import juliasChildren from "../../assets/images/Julias_Children_Screenshot_updated.jpg";
+
 // imports the image for the Weather Dashboard app
 import weatherDashbord from "../../assets/images/Weather Dashboard.jpg";
+
 // imports the image for the Social-Network-API
 import socialNetwork from "../../assets/images/Social-Network-API.jpg";
+
 // imports the image for the PWA-Text-Editor app
 import textEditor from "../../assets/images/app_screenshot.jpg";
+
 // imports the image for the E-Commerce-Back-end
 import eCommerce from "../../assets/images/E_Commerce_Backend.jpg";
 
