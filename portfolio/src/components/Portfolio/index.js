@@ -73,13 +73,14 @@ function Portfolio() {
               <h2 className="card-header bg-dark text-light d-flex-inline">
                 Social-Network-API
               </h2>
-              <a href="https://github.com/AlexandertheGreat491/Social-Network-API.git">
+              <a href="https://vimeo.com/743245394">
                 <img
                   src={socialNetwork}
                   style={{ width: "20%" }}
                   alt="social"
                 />
               </a>
+              <a href="https://github.com/AlexandertheGreat491/Social-Network-API.git">Social-Network-API Repository</a>
             </div>
           </div>
           {/* PWA-Text-Editor */}
@@ -96,6 +97,7 @@ function Portfolio() {
               </a>
             </div>
           </div>
+          {/* E-Commerce-Back-End */}
         </div>
       </div>
     </article>
