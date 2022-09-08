@@ -1,10 +1,21 @@
 import React from "react";
 
-function Header() {
-  return (<header className="container col align-self-center col-sm col-md col-lg col-xl">
+function Header(props) {
+  const { pages = [], setCurrentPage, currentPage } = props;
+
+  return (
+    
+  <header className="container col align-self-center col-sm col-md col-lg col-xl">
     <h1 className="text-left d-flex flex-row">Alex Van Dyke</h1>
     {/* navigation */}
     <nav className="nav nav-pills flex-column flex-sm-row">
+    <ul>
+        {pages.map((Page) => (
+          <li className={`${currentPage.name === Page.name && "highlight"}`} key={Page.name}>
+            <span onClick={() => setCurrentPage(Page)}>{Page.name}</span>
+          </li>
+        ))}
+      </ul>
       <div className="col-sm">
         <a
           href="#About-Me"
