@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Credits
+
+Collaborators:
+
+[Alex Van Dyke](https://github.com/AlexandertheGreat491)
+
+Sources:
+
+[Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+[How to Delete a Git Branch Both Locally and Remotely](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
+
+[How to add comments to JSX](https://www.educative.io/answers/how-to-add-comments-in-jsx)
+
+[React Docs](https://reactjs.org/docs/getting-started.html)
+
+[react-dom](https://www.npmjs.com/package/react-dom)
+
+[react-scripts](https://www.npmjs.com/package/react-scripts)
+
+[@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom)
+
+[@testing-library/react](https://www.npmjs.com/package/@testing-library/react)
+
+## License
+
+[Link to license](./LICENSE)
