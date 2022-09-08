@@ -7,7 +7,7 @@ function About() {
     <section className='row'>
         <div className='col'>
             <h2>About Me</h2>
-            <img src={profileImage} style={{ width: "20%" }} alt="profile photo"/>
+            <img src={profileImage} style={{ width: "20%" }} alt="profile"/>
             <div className='col mt-2 border border-dark border-4 rounded'>
                 <p>
                 A new developer leveraging a background in education, military intelligence, and finance to provide unique perspectives on how people interact with technology and in providing support to customers. 
