@@ -2,6 +2,7 @@ import React from 'react';
 //import logo from './logo.svg';
 import Header from './components/Header';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       </header>
       <main>
         <About></About>
+        <Portfolio></Portfolio>
       </main>
     </div>
   );

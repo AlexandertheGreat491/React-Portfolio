@@ -1,5 +1,6 @@
 // imports react
 import React from "react";
+// imports the title images for each project
 // imports the image for the Movie Nerds app
 import movieNerds from "../../assets/images/Movie_Nerds.jpg";
 // imports the image for the Julia's Children app
@@ -10,6 +11,8 @@ import weatherDashbord from "../../assets/images/Weather Dashboard.jpg";
 import socialNetwork from "../../assets/images/Social-Network-API.jpg";
 // imports the image for the PWA-Text-Editor app
 import textEditor from "../../assets/images/app_screenshot.jpg";
+// imports the image for the E-Commerce-Back-end
+import eCommerce from "../../assets/images/E_Commerce_Backend.jpg";
 
 function Portfolio() {
   // six projects
@@ -80,7 +83,9 @@ function Portfolio() {
                   alt="social"
                 />
               </a>
-              <a href="https://github.com/AlexandertheGreat491/Social-Network-API.git">Social-Network-API Repository</a>
+              <a href="https://github.com/AlexandertheGreat491/Social-Network-API.git">
+                Social-Network-API Repository
+              </a>
             </div>
           </div>
           {/* PWA-Text-Editor */}
@@ -90,7 +95,7 @@ function Portfolio() {
                 PWA-Text-Editor
               </h2>
               <a href="https://nameless-dawn-90589.herokuapp.com/">
-                <img src={textEditor} alt="text" />
+                <img src={textEditor} style={{ width: "20%" }} alt="text" />
               </a>
               <a href="https://github.com/AlexandertheGreat491/PWA-Text-Editor.git">
                 PWA-Text-Editor Repository
@@ -98,6 +103,19 @@ function Portfolio() {
             </div>
           </div>
           {/* E-Commerce-Back-End */}
+          <div className="row d-inline-flex">
+            <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
+              <h2 className="card-header bg-dark text-light d-flex-inline">
+                E-Commerce-Back-End
+              </h2>
+              <a href="https://vimeo.com/732172741">
+                <img src={eCommerce} style={{ width: "20%" }} alt="commerce" />
+              </a>
+              <a href="https://github.com/AlexandertheGreat491/E-Commerce-Back-End.git">
+                E-Commerce-Back-End Repository
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </article>
