@@ -83,6 +83,8 @@ Sources:
 
 [How to add comments to JSX](https://www.educative.io/answers/how-to-add-comments-in-jsx)
 
+[:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
+
 [React Docs](https://reactjs.org/docs/getting-started.html)
 
 [react-dom](https://www.npmjs.com/package/react-dom)
