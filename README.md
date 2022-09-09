@@ -83,6 +83,10 @@ Sources:
 
 [How to add comments to JSX](https://www.educative.io/answers/how-to-add-comments-in-jsx)
 
+[How to Create the Copyright Symbol in HTML](https://careerkarma.com/blog/html-copyright-symbol/#:~:text=You%20can%20create%20an%20HTML,character%20onto%20the%20web%20page.)
+
+[HTML Lists](https://www.w3schools.com/html/html_lists.asp)
+
 [:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
 
 [React Docs](https://reactjs.org/docs/getting-started.html)
