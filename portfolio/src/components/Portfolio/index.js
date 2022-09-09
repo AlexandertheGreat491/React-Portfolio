@@ -22,110 +22,52 @@ import eCommerce from "../../assets/images/E_Commerce_Backend.jpg";
 
 function Portfolio() {
   // six projects
+  const projects = [
+    {
+      name: "Movie Nerds",
+      imgsrc: movieNerds,
+      link: "https://alexanderthegreat491.github.io/solid-octo-funicular",
+      repo: "https://github.com/AlexandertheGreat491/solid-octo-funicular.git",
+    },
+    {
+      name: "Julia's Children",
+      imgsrc: juliasChildren,
+      link: "https://arcane-brushlands-08991.herokuapp.com/",
+      repo: "https://github.com/AlexandertheGreat491/Julias_Children.git",
+    },
+    {
+      name: "Weather Dashboard",
+      imgsrc: weatherDashbord,
+      link: "https://alexanderthegreat491.github.io/furry-octo-succotash/",
+      repo: "https://github.com/AlexandertheGreat491/furry-octo-succotash.git",
+    },
+    {
+      name: "Social-Network-API",
+      imgsrc: socialNetwork,
+      link: "https://vimeo.com/743245394",
+      repo: "https://github.com/AlexandertheGreat491/Social-Network-API.git",
+    },
+    {
+      name: "PWA-Text-Editor",
+      imgsrc: textEditor,
+      link: "https://nameless-dawn-90589.herokuapp.com/",
+      repo: "https://github.com/AlexandertheGreat491/PWA-Text-Editor.git",
+    },
+    {
+      name: "E-Commerce-Back-End",
+      imgsrc: eCommerce,
+      link: "https://vimeo.com/732172741",
+      repo: "https://github.com/AlexandertheGreat491/E-Commerce-Back-End.git",
+    },
+  ];
+
   return (
-    <article id="Portfolio" className="container">
-      <h1>Portfolio</h1>
-      {/* Movie Nerds */}
-      <div className="row">
-        <div>
-          <div className="row d-inline-flex">
-            <div className="card border border-dark border-3 rounded mb-3 col align-items-center">
-              <h2 className="card-header bg-dark text-light d-flex-inline">
-                Movie Nerds
-              </h2>
-              <a href="https://alexanderthegreat491.github.io/solid-octo-funicular">
-                <img src={movieNerds} style={{ width: "20%" }} alt="nerds" />
-              </a>
-              <a href="https://github.com/AlexandertheGreat491/solid-octo-funicular.git">
-                Movie Nerds Repository
-              </a>
+    <section>
+            <h1>Portfolio</h1>
+            <div className="project-flex">
+                {projects.map((project, index) => (<Project project={project} key={"project"+index}/>))}
             </div>
-          </div>
-          {/* Julias Children */}
-          <div className="row d-inline-flex">
-            <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
-              <h2 className="card-header bg-dark text-light d-flex-inline">
-                Julia's Children
-              </h2>
-              <a href="https://arcane-brushlands-08991.herokuapp.com/">
-                <img
-                  src={juliasChildren}
-                  style={{ width: "20%" }}
-                  alt="julia"
-                />
-              </a>
-              <a href="https://github.com/AlexandertheGreat491/Julias_Children.git">
-                Julia's Children Repository
-              </a>
-            </div>
-          </div>
-          {/* Weather Dashboard */}
-          <div className="row d-inline-flex">
-            <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
-              <h2 className="card-header bg-dark text-light d-flex-inline">
-                Weather Dashboard
-              </h2>
-              <a href="https://alexanderthegreat491.github.io/furry-octo-succotash/">
-                <img
-                  src={weatherDashbord}
-                  style={{ width: "20%" }}
-                  alt="dashboard"
-                />
-              </a>
-              <a href="https://github.com/AlexandertheGreat491/furry-octo-succotash.git">
-                Weather Dashboard Repository
-              </a>
-            </div>
-          </div>
-          {/* Social-Network-API */}
-          <div className="row d-inline-flex">
-            <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
-              <h2 className="card-header bg-dark text-light d-flex-inline">
-                Social-Network-API
-              </h2>
-              <a href="https://vimeo.com/743245394">
-                <img
-                  src={socialNetwork}
-                  style={{ width: "20%" }}
-                  alt="social"
-                />
-              </a>
-              <a href="https://github.com/AlexandertheGreat491/Social-Network-API.git">
-                Social-Network-API Repository
-              </a>
-            </div>
-          </div>
-          {/* PWA-Text-Editor */}
-          <div className="row d-inline-flex">
-            <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
-              <h2 className="card-header bg-dark text-light d-flex-inline">
-                PWA-Text-Editor
-              </h2>
-              <a href="https://nameless-dawn-90589.herokuapp.com/">
-                <img src={textEditor} style={{ width: "20%" }} alt="text" />
-              </a>
-              <a href="https://github.com/AlexandertheGreat491/PWA-Text-Editor.git">
-                PWA-Text-Editor Repository
-              </a>
-            </div>
-          </div>
-          {/* E-Commerce-Back-End */}
-          <div className="row d-inline-flex">
-            <div className="card border border-dark border-3 rounded mb-3 align-items-center col">
-              <h2 className="card-header bg-dark text-light d-flex-inline">
-                E-Commerce-Back-End
-              </h2>
-              <a href="https://vimeo.com/732172741">
-                <img src={eCommerce} style={{ width: "20%" }} alt="commerce" />
-              </a>
-              <a href="https://github.com/AlexandertheGreat491/E-Commerce-Back-End.git">
-                E-Commerce-Back-End Repository
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
+        </section>
   );
 }
 
