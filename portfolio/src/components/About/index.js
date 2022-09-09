@@ -5,7 +5,7 @@ import profileImage from "../../assets/images/profile picture.JPG";
 function About() {
   return (
     <article className="container">
-      <section id="About-Me" className="row">
+      <section className="row">
         <div className="col">
           <h2 id="me">About Me</h2>
           <img src={profileImage} style={{ width: "20%" }} alt="profile" />
