@@ -39,10 +39,17 @@ header h1 {
   color: var(--tertiary);
   font-weight: 700;
   font-size: 1.25em;
-  padding: 0.125em;
   margin-bottom: 1.875em;
   margin-left: 1.875em;
 }
+
+#navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
 
 #me, #bio  {
   color: var(--secondary);
