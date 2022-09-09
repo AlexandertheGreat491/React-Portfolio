@@ -21,10 +21,6 @@ code {
     monospace;
 }
 
-.highlight {
-  background-color: var(--secondary);
-}
-
 header {
   background-color: var(--primary);
 }
