@@ -8,6 +8,8 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 // imports the Contact component
 import Contact from './components/Contact';
+// imports the Resume component
+import Resume from './components/Resume';
 import './App.css';
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <About></About>
         <Portfolio></Portfolio>
         <Contact></Contact>
+        <Resume></Resume>
       </main>
     </div>
   );
