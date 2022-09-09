@@ -37,9 +37,12 @@ header h1 {
 #nav-item {
   background-color: var(--primary) ;
   color: var(--tertiary);
+  font-weight: 700;
+  font-size: 1.25em;
+  padding: 0.125em;
+  margin-bottom: 1.875em;
+  margin-left: 1.875em;
 }
-
-
 
 #me, #bio  {
   color: var(--secondary);
