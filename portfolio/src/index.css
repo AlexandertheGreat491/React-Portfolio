@@ -35,29 +35,17 @@ header h1 {
 }
 
 #nav-item {
+  background-color: var(--primary) ;
   color: var(--tertiary);
 }
 
 
-/* Components */
-.components {
-  padding: 0 20px;
+
+#me, #bio  {
+  color: var(--secondary);
 }
 
-/* Portfolio */
-.project-flex {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
+#foot {
+  color: var(--secondary);
 }
 
-.project-title {
-  margin-bottom: 2px;
-  text-align: center;
-}
-
-.project-img {
-  width: 100%;
-  margin-bottom: 10px;
-}

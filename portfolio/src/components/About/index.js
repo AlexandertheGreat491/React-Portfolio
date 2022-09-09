@@ -7,10 +7,10 @@ function About() {
     <article className="container">
       <section id="About-Me" className="row">
         <div className="col">
-          <h2>About Me</h2>
+          <h2 id="me">About Me</h2>
           <img src={profileImage} style={{ width: "20%" }} alt="profile" />
           <div className="col mt-2 border border-dark border-4 rounded">
-            <p>
+            <p id="bio">
               A new developer leveraging a background in education, military
               intelligence, and finance to provide unique perspectives on how
               people interact with technology and in providing support to
