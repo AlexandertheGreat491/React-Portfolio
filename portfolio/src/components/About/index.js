@@ -4,12 +4,12 @@ import profileImage from "../../assets/images/profile picture.JPG";
 
 function About() {
   return (
-    <article className="container">
+    <article id="about" className="container">
       <section className="row">
         <div className="col">
           <h2 id="me" className="mb-2">About Me</h2>
           <img src={profileImage} style={{ width: "20%" }} alt="profile" />
-          <div className="col mt-2 border border-dark border-4 rounded">
+          <div className="col mt-2 border border-light border-4 rounded">
             <p id="bio" className="p-1">
               A new developer leveraging a background in education, military
               intelligence, and finance to provide unique perspectives on how

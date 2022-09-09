@@ -63,6 +63,13 @@ header h1 {
   color: var(--secondary);
 }
 
+#about {
+  border: 0.3125em groove var(--quaternary);
+  border-radius: 0.625em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*Footer styling */
 #foot {
   color: var(--secondary);
 }
