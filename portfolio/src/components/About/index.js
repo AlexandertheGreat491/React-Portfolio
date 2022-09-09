@@ -4,10 +4,10 @@ import profileImage from "../../assets/images/profile picture.JPG";
 
 function About() {
   return (
-    <article id="about" className="container">
+    <article id="about"  className="container">
       <section className="row">
-        <div className="col">
-          <h2 id="me" className="mb-2">About Me</h2>
+        <div className="col m-4">
+          <h2 id="me">About Me</h2>
           <img src={profileImage} style={{ width: "20%" }} alt="profile" />
           <div className="col mt-2 border border-light border-4 rounded">
             <p id="bio" className="p-1">
