@@ -42,6 +42,9 @@ header {
 
 header h1 {
   color: var(--tertiary);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3.75em;
+  font-weight: 700;
 }
 
 /*nav styling*/
@@ -73,6 +76,8 @@ header h1 {
   border: 0.3125em groove var(--quaternary);
   border-radius: 0.625em;
   font-family: 'Courier New', Courier, monospace;
+  width: 200em;
+  height: 50em;
 }
 
 /*Footer styling */

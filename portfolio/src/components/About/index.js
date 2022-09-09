@@ -6,11 +6,11 @@ function About() {
   return (
     <article id="about"  className="container">
       <section className="row">
-        <div className="col m-4">
+        <div className="col m-3">
           <h2 id="me">About Me</h2>
           <img src={profileImage} style={{ width: "20%" }} alt="profile" />
-          <div className="col mt-2 border border-light border-4 rounded">
-            <p id="bio" className="p-1">
+          <div className="col mt-4 border border-light border-4 rounded">
+            <p id="bio" className="p-1 m-2">
               A new developer leveraging a background in education, military
               intelligence, and finance to provide unique perspectives on how
               people interact with technology and in providing support to
