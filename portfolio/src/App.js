@@ -10,6 +10,8 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 // imports the Resume component
 import Resume from './components/Resume';
+// imports the Footer component
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
         <Contact></Contact>
         <Resume></Resume>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
