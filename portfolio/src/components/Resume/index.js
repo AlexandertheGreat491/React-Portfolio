@@ -6,7 +6,7 @@ import resumeImage from "../../assets/images/resume_screenshot.jpg";
 
 function Resume() {
   return (
-    <section>
+    <section id="Resume">
       <h1>Resume</h1>
       <div>
         <a href="https://docs.google.com/document/d/1R3wSiZQTD-gaosYGYLSGY6oElxLfOdagODPDBNow-64/edit?usp=sharing">
