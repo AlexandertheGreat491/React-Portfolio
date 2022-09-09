@@ -1,5 +1,5 @@
 import React from 'react';
-//import logo from './logo.svg';
+
 // imports the Header component
 import Header from './components/Header';
 // imports the About component

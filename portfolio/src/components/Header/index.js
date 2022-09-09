@@ -21,6 +21,7 @@ function Header(props) {
         <div className="col-sm">
           <a
             href="#About-Me"
+            id="nav-item"
             className="flex-sm-fill text-sm-center nav-link m-3"
           >
             About Me
@@ -29,6 +30,7 @@ function Header(props) {
         <div className="col-sm">
           <a
             href="#Portfolio"
+            id="nav-item"
             className="flex-sm-fill text-sm-center nav-link m-3"
           >
             Portfolio
@@ -37,6 +39,7 @@ function Header(props) {
         <div className="col-sm">
           <a
             href="#Contact"
+            id="nav-item"
             className="flex-sm-fill text-sm-center nav-link m-3"
           >
             Contact
@@ -45,6 +48,7 @@ function Header(props) {
         <div className="col-sm">
           <a
             href="#Resume"
+            id="nav-item"
             className="flex-sm-fill text-sm-center nav-link m-3"
           >
             Resume
