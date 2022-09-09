@@ -1,3 +1,4 @@
+/*General app styling*/
 /*colors taken from https://coolors.co/93827f-f3f9d2-bdc4a7-2f2f2f-92b4a7*/
 :root {
 --primary: #93827fff; /*cinereous*/
@@ -26,6 +27,8 @@ code {
   background-color: var(--background);
 }
 
+/*header styling */
+
 header {
   background-color: var(--primary);
 }
@@ -33,6 +36,8 @@ header {
 header h1 {
   color: var(--tertiary);
 }
+
+/*nav styling*/
 
 #nav-item {
   background-color: var(--primary) ;
@@ -50,7 +55,7 @@ header h1 {
   list-style: none;
 }
 
-
+/*About styling*/
 #me, #bio  {
   color: var(--secondary);
 }
