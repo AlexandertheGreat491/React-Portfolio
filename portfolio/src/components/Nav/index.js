@@ -8,9 +8,9 @@ function Nav(props) {
   } = props;
 
   return (
-  <nav>
+  <nav >
     {categories.map((category) => (
-                <button key={category.name}
+                <button id='nav-item'  key={category.name}
                     className={`${currentCategory.name === category.name && 'navActive'
                         }`}>
                     <span onClick={() => setCurrentCategory(category)}>
