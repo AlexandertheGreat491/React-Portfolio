@@ -1,45 +1,39 @@
-import React, { useState } from "react";
-
-// imports the Header component
-import Header from "./components/Header";
-
-import Nav from "./components/Nav";
-// imports the Footer component
-import Footer from "./components/Footer";
-import "./App.css";
+import React, { useState } from 'react';
+import './App.css';
+import Header from "./components/Header"
+import Project from "./components/Project"
+import Footer from "./components/Footer"
+import About from "./components/About"
+import Contact from "./components/Contact"
+import Resume from "./components/Resume"
+import Nav from "./components/Nav"
 
 function App() {
-  const [pages] = useState([
-    {
-      name: "About",
-    },
-    {
-      name: "Portfolio",
-    },
-    {
-      name: "Contact",
-    },
-    {
-      name: "Resume",
-    }
-  ])
+  const [categories] = useState([
+    { name: "About Me" },
+    { name: "Portfolio" },
+    { name: "Contact" },
+    { name: "Resume" }
+  ]);
 
-  const [currentPage, setCurrentPage] = useState(pages[0]);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div>
-      <header>
-      <Header>
-            <Nav
-              pages={pages}
-              setCurrentPage={setCurrentPage}
-              currentPage={currentPage}
-            ></Nav>
-            </Header>
-      </header>
-      <main>
-      <Page currentPage={currentPage}></Page>
-      </main>
+    <div id="app">
+      <div id="header">
+        <Header></Header>
+        <Nav
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+        ></Nav>
+      </div>
+      <div id="main">
+        {currentCategory === categories[0] && <About></About>}
+        {currentCategory === categories[1] && <Project></Project>}
+        {currentCategory === categories[2] && <Contact></Contact>}
+        {currentCategory === categories[3] && <Resume></Resume>}
+      </div>
       <Footer></Footer>
     </div>
   );

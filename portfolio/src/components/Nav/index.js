@@ -18,43 +18,6 @@ function Nav(props) {
                     </span>
                 </button>
             ))}
-            
-        <div className="col-sm">
-          <a
-            href="#About-Me"
-            id="nav-item"
-            className="flex-sm-fill text-sm-center nav-link m-3"
-          >
-            About Me
-          </a>
-        </div>
-        <div className="col-sm">
-          <a
-            href="#Portfolio"
-            id="nav-item"
-            className="flex-sm-fill text-sm-center nav-link m-3"
-          >
-            Portfolio
-          </a>
-        </div>
-        <div className="col-sm">
-          <a
-            href="#Contact"
-            id="nav-item"
-            className="flex-sm-fill text-sm-center nav-link m-3"
-          >
-            Contact
-          </a>
-        </div>
-        <div className="col-sm">
-          <a
-            href="#Resume"
-            id="nav-item"
-            className="flex-sm-fill text-sm-center nav-link m-3"
-          >
-            Resume
-          </a>
-        </div>
   </nav>
   )
 } 
