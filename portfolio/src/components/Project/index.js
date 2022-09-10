@@ -78,7 +78,7 @@ function Project() {
               <a className="ml-5 mr-5 mb-5" href={project.link}>
                 {project.name}
               </a>
-              <a href={project.repo}>
+              <a style={{width:'20%'}} href={project.repo}>
                 <FaGithub/>
               </a>
             </div>

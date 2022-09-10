@@ -87,6 +87,8 @@ Sources:
 
 [DOM Elements](https://reactjs.org/docs/dom-elements.html#style)
 
+[Font Awesome](https://react-icons.github.io/react-icons/icons?name=fa)
+
 [Grouping Multiple CSS Selectors](https://www.thoughtco.com/grouping-multiple-css-selectors-3467065)
 
 [Highlight The Active Navigation Bar Link Using NavLink in React](https://staceycarrillo.medium.com/highlight-the-active-navigation-bar-link-using-navlink-in-react-d44f5d8bf997)

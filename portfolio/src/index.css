@@ -71,9 +71,9 @@ header h1 {
 /*About component styling*/
 #me {
   color: var(--secondary);
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.875em;
+  font-size: 2.1875em;
   text-decoration: underline;
   text-align: center;
 }
@@ -114,7 +114,7 @@ header h1 {
 
 #projects a {
   color: var(--quaternary);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #six {
@@ -122,18 +122,18 @@ header h1 {
   justify-content: center;
   text-decoration: underline;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.875em;
+  font-size: 2.1875em;
 }
 
 /*Contact component styling*/
 
 #contact {
   color: var(--secondary);
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.875em;
+  font-size: 2.1875em;
   text-decoration: underline;
   text-align: center;
 }
@@ -184,9 +184,9 @@ label {
 }
 
 #Resume h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.875em;
+  font-size: 2.1875em;
   text-decoration: underline;
 }
 
