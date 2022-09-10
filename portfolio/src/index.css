@@ -144,8 +144,21 @@ label {
   font-size: 1.125em;
 }
 
+#name {
+  margin-right: 5.625em;
+}
+
+#email {
+  margin-right: 0.375em;
+}
+
+#message {
+  margin-right: 4.375em; 
+}
+
 #form div {
   margin-left: 34.375em;
+  display: inline-block;
 }
 
 #submit {

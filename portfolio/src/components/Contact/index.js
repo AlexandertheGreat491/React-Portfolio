@@ -39,7 +39,7 @@ function Contact() {
       <h1 id="contact">Contact Me</h1>
       <form id="form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label id="name" className="mb-1" htmlFor="name">Name:</label>
           <input
             type="text"
             name="name"
@@ -48,7 +48,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label id="email" className="mb-1" htmlFor="email">Email address:</label>
           <input
             type="email"
             name="email"
@@ -57,7 +57,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label id="message" htmlFor="message">Message:</label>
           <textarea
             name="message"
             rows="5"
@@ -70,7 +70,9 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button className="mt-2" id="submit" type="submit">Submit</button>
+        <button className="mt-2" id="submit" type="submit">
+          Submit
+        </button>
       </form>
     </section>
   );
