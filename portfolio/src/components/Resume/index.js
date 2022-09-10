@@ -1,7 +1,7 @@
 // imports react
 import React from "react";
 
-// imports the image of the resume
+// imports the image of the resume Google Doc
 import resumeImage from "../../assets/images/resume_screenshot.jpg";
 
 function Resume() {
@@ -13,7 +13,7 @@ function Resume() {
           <img src={resumeImage} style={{ width: "20%" }} alt="resume" />
         </a>
         <h2>Skills</h2>
-        <ul>
+        <ul style={{listStyle:'none'}}>
             <li>JavaScriptES6+</li>
             <li>CSS3</li>
             <li>HTML5</li>

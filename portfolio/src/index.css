@@ -174,7 +174,14 @@ label {
   border-radius: 0.625em;
 }
 
-/*Footer styling */
+/*Resume component styling */
+
+#Resume {
+  color: var(--secondary);
+  text-align: center;
+}
+
+/*Footer component styling */
 #foot {
   color: var(--secondary);
   text-align: center;
