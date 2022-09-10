@@ -108,6 +108,11 @@ header h1 {
   font-weight: 600;
 }
 
+#six {
+  color: var(--secondary);
+  justify-content: center;
+}
+
 /*Footer styling */
 #foot {
   color: var(--secondary);

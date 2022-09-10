@@ -63,6 +63,7 @@ function Project() {
 
   return (
     <div>
+      <h2 id="six" className="m-4">Projects</h2>
       <div id="projects">
         {projects.map((project) => (
           <div key={project.name}>
