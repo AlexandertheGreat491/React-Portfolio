@@ -117,6 +117,8 @@ Sources:
 
 [react-scripts](https://www.npmjs.com/package/react-scripts)
 
+[react-icons](https://react-icons.github.io/react-icons/)
+
 [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom)
 
 [@testing-library/react](https://www.npmjs.com/package/@testing-library/react)
