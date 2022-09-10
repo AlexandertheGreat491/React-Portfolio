@@ -135,6 +135,7 @@ header h1 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.875em;
   text-decoration: underline;
+  text-align: center;
 }
 
 label {
@@ -143,11 +144,16 @@ label {
   font-size: 1.125em;
 }
 
+#form div {
+  margin-left: 34.375em;
+}
+
 #submit {
   color: var(--secondary);
   background-color: var(--primary);
   border: 0.3125em groove var(--quaternary);
   border-radius: 0.625em;
+  margin-left: 38.75em;
 }
 
 /*Footer styling */
