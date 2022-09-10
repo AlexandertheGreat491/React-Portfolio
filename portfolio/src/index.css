@@ -137,6 +137,10 @@ header h1 {
   text-decoration: underline;
 }
 
+label {
+  color: var(--secondary);
+}
+
 /*Footer styling */
 #foot {
   color: var(--secondary);
