@@ -91,10 +91,10 @@ header h1 {
 }
 
 /*Project component styling */
+
 .card {
   display: flex;
   background-size: cover;
-  
   flex-direction: column;
 }
 
@@ -125,6 +125,12 @@ header h1 {
   font-weight: 600;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.875em;
+}
+
+/*Contact component styling*/
+
+#contact {
+  color: var(--secondary);
 }
 
 /*Footer styling */
