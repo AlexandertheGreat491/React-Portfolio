@@ -103,7 +103,7 @@ header h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 1.25em;
-  border: 0.625em groove var(--quaternary);
+  border: 0.75em groove var(--quaternary);
   border-radius: 0.625em;
 }
 
@@ -170,7 +170,7 @@ label {
 }
 
 #all {
-  border: 0.3125em groove var(--quaternary);
+  border: 0.75em groove var(--quaternary);
   border-radius: 0.625em;
 }
 
@@ -179,7 +179,7 @@ label {
 #Resume {
   color: var(--secondary);
   text-align: center;
-  border: 0.3125em groove var(--quaternary);
+  border: 0.75em groove var(--quaternary);
   border-radius: 0.625em;
 }
 
