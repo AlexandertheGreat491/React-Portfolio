@@ -99,6 +99,8 @@ Sources:
 
 [How to add multiple attributes to a react element? duplicate](https://stackoverflow.com/questions/34846352/how-to-add-multiple-style-attributes-to-a-react-element)
 
+[How to Align Labels Next to Inputs](https://www.w3docs.com/snippets/html/how-to-align-labels-next-to-inputs.html)
+
 [HTML Lists](https://www.w3schools.com/html/html_lists.asp)
 
 [Pixels to Ems Conversion](https://www.w3schools.com/tags/ref_pxtoemconversion.asp)

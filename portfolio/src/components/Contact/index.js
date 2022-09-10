@@ -35,11 +35,11 @@ function Contact() {
     }
   };
   return (
-    <section>
-      <h1 id="contact">Contact Me</h1>
+    <section id="all">
+      <h1 id="contact" className="mb-5">Contact Me</h1>
       <form id="form" onSubmit={handleSubmit}>
         <div>
-          <label id="name" className="mb-1" htmlFor="name">Name:</label>
+          <label id="name" className="mb-3" htmlFor="name">Name:</label>
           <input
             type="text"
             name="name"
@@ -48,7 +48,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label id="email" className="mb-1" htmlFor="email">Email address:</label>
+          <label id="email" className="mb-3" htmlFor="email">Email address:</label>
           <input
             type="email"
             name="email"
@@ -57,7 +57,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label id="message" htmlFor="message">Message:</label>
+          <label id="message" className="mb-2" htmlFor="message">Message:</label>
           <textarea
             name="message"
             rows="5"
@@ -70,7 +70,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button className="mt-2" id="submit" type="submit">
+        <button className="mt-2 mb-2" id="submit" type="submit">
           Submit
         </button>
       </form>
