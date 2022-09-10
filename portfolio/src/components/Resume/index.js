@@ -7,12 +7,12 @@ import resumeImage from "../../assets/images/resume_screenshot.jpg";
 function Resume() {
   return (
     <section id="Resume">
-      <h1>Resume</h1>
+      <h1 className="mb-2">Resume</h1>
       <div>
         <a href="https://docs.google.com/document/d/1R3wSiZQTD-gaosYGYLSGY6oElxLfOdagODPDBNow-64/edit?usp=sharing">
           <img src={resumeImage} style={{ width: "20%" }} alt="resume" />
         </a>
-        <h2>Skills</h2>
+        <h2 className="mt-3">Skills</h2>
         <ul style={{listStyle:'none'}}>
             <li>JavaScriptES6+</li>
             <li>CSS3</li>

@@ -179,6 +179,22 @@ label {
 #Resume {
   color: var(--secondary);
   text-align: center;
+  border: 0.3125em groove var(--quaternary);
+  border-radius: 0.625em;
+}
+
+#Resume h1 {
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.875em;
+  text-decoration: underline;
+}
+
+#Resume h2 {
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.875em;
+  text-decoration: underline;
 }
 
 /*Footer component styling */
