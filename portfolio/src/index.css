@@ -139,6 +139,8 @@ header h1 {
 
 label {
   color: var(--secondary);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.125em;
 }
 
 /*Footer styling */
