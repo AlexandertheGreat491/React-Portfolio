@@ -15,7 +15,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 code {
@@ -32,6 +31,7 @@ code {
   margin-bottom: 8.125em;
   margin-right: 1.25em;
   margin-left: 1.25em;
+  
 }
 
 /*header styling */
@@ -73,11 +73,39 @@ header h1 {
 }
 
 #about {
-  border: 0.3125em groove var(--quaternary);
+  border: 0.625em groove var(--quaternary);
   border-radius: 0.625em;
   font-family: 'Courier New', Courier, monospace;
   width: 200em;
   height: 50em;
+}
+
+.card {
+  display: flex;
+  background-size: cover;
+  width: 15.625em;
+  height: 25em;
+  flex-direction: column;
+  
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1.25em;
+  border: 0.625em groove var(--quaternary);
+  border-radius: 0.625em;
+}
+
+#projects img {
+  height: 12.5em;
+  width: 25em;
+}
+
+#projects a {
+  color: var(--quaternary);
+  font-weight: 600;
 }
 
 /*Footer styling */
