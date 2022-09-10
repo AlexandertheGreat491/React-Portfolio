@@ -22,6 +22,7 @@ code {
     monospace;
 }
 
+/*Root styling */
 #app {
   background-color: var(--background);
 }
@@ -34,7 +35,7 @@ code {
   
 }
 
-/*header styling */
+/*Header component styling */
 
 header {
   background-color: var(--primary);
@@ -47,7 +48,7 @@ header h1 {
   font-weight: 700;
 }
 
-/*nav styling*/
+/*Nav component styling*/
 
 #nav-item {
   background-color: var(--primary) ;
@@ -67,7 +68,7 @@ header h1 {
   list-style: none;
 }
 
-/*About styling*/
+/*About component styling*/
 #me, #bio  {
   color: var(--secondary);
 }
@@ -80,6 +81,7 @@ header h1 {
   height: 50em;
 }
 
+/*Project component styling */
 .card {
   display: flex;
   background-size: cover;
