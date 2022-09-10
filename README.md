@@ -87,6 +87,8 @@ Sources:
 
 [DOM Elements](https://reactjs.org/docs/dom-elements.html#style)
 
+[Grouping Multiple CSS Selectors](https://www.thoughtco.com/grouping-multiple-css-selectors-3467065)
+
 [Highlight The Active Navigation Bar Link Using NavLink in React](https://staceycarrillo.medium.com/highlight-the-active-navigation-bar-link-using-navlink-in-react-d44f5d8bf997)
 
 [How to Delete a Git Branch Both Locally and Remotely](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
