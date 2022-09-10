@@ -70,7 +70,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit">Submit</button>
+        <button id="submit" type="submit">Submit</button>
       </form>
     </section>
   );

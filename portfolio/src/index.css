@@ -143,6 +143,13 @@ label {
   font-size: 1.125em;
 }
 
+#submit {
+  color: var(--secondary);
+  background-color: var(--primary);
+  border: 0.3125em groove var(--quaternary);
+  border-radius: 0.625em;
+}
+
 /*Footer styling */
 #foot {
   color: var(--secondary);
