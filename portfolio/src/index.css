@@ -69,7 +69,16 @@ header h1 {
 }
 
 /*About component styling*/
-#me, #bio  {
+#me {
+  color: var(--secondary);
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.875em;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#bio {
   color: var(--secondary);
 }
 
