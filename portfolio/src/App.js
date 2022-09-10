@@ -8,6 +8,7 @@ import Contact from "./components/Contact"
 import Resume from "./components/Resume"
 import Nav from "./components/Nav"
 
+
 function App() {
   const [categories] = useState([
     { name: "About Me" },

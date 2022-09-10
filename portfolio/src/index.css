@@ -94,10 +94,8 @@ header h1 {
 .card {
   display: flex;
   background-size: cover;
-  width: 15.625em;
-  height: 25em;
-  flex-direction: column;
   
+  flex-direction: column;
 }
 
 #projects {

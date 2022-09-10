@@ -63,15 +63,19 @@ function Project() {
 
   return (
     <div>
-      <h2 id="six" className="m-4">Projects</h2>
+      <h2 id="six" className="m-4">
+        Projects
+      </h2>
       <div id="projects">
         {projects.map((project) => (
           <div key={project.name}>
             <div
               className="card mb-5 mt-5 container align-items-center"
-              style={{ backgroundImage: `url(${project.imgsrc})` }}
+              style={{ backgroundImage: `url(${project.imgsrc})`, width: '18.75em', height: '25em' }} 
             >
-              <a className="ml-5 mr-5 mb-5" href={project.link}>{project.name}</a>
+              <a className="ml-5 mr-5 mb-5" href={project.link}>
+                {project.name}
+              </a>
               <a href={project.repo}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

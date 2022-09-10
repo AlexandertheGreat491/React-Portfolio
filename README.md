@@ -79,15 +79,23 @@ Sources:
 
 [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
+[Bootstrap Cards](https://getbootstrap.com/docs/4.1/components/card/)
+
 [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
 
 [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+
+[DOM Elements](https://reactjs.org/docs/dom-elements.html#style)
+
+[Highlight The Active Navigation Bar Link Using NavLink in React](https://staceycarrillo.medium.com/highlight-the-active-navigation-bar-link-using-navlink-in-react-d44f5d8bf997)
 
 [How to Delete a Git Branch Both Locally and Remotely](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
 
 [How to add comments to JSX](https://www.educative.io/answers/how-to-add-comments-in-jsx)
 
 [How to Create the Copyright Symbol in HTML](https://careerkarma.com/blog/html-copyright-symbol/#:~:text=You%20can%20create%20an%20HTML,character%20onto%20the%20web%20page.)
+
+[How to add multiple attributes to a react element? duplicate](https://stackoverflow.com/questions/34846352/how-to-add-multiple-style-attributes-to-a-react-element)
 
 [HTML Lists](https://www.w3schools.com/html/html_lists.asp)
 
