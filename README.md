@@ -79,6 +79,10 @@ Sources:
 
 [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
+[CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
+
+[CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+
 [How to Delete a Git Branch Both Locally and Remotely](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
 
 [How to add comments to JSX](https://www.educative.io/answers/how-to-add-comments-in-jsx)
@@ -86,6 +90,10 @@ Sources:
 [How to Create the Copyright Symbol in HTML](https://careerkarma.com/blog/html-copyright-symbol/#:~:text=You%20can%20create%20an%20HTML,character%20onto%20the%20web%20page.)
 
 [HTML Lists](https://www.w3schools.com/html/html_lists.asp)
+
+[Pixels to Ems Conversion](https://www.w3schools.com/tags/ref_pxtoemconversion.asp)
+
+[justify-content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
 
 [:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
 
@@ -98,6 +106,8 @@ Sources:
 [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom)
 
 [@testing-library/react](https://www.npmjs.com/package/@testing-library/react)
+
+[width](https://developer.mozilla.org/en-US/docs/Web/CSS/width)
 
 ## License
 
