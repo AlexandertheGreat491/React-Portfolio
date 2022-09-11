@@ -92,13 +92,13 @@ header h1 {
 }
 
 #bio {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   color: var(--secondary);
   font-size: 1em;
   width: 60%;
-  margin: 0.9375em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  float: right;
 }
 
 #about {

@@ -11,17 +11,20 @@ function About() {
         <div  className="col m-2">
           <h2 id="me">About Me</h2>
           <img id="handsome" src={profileImage} style={{ width: "20%" }} alt="profile" />
-          <div className="col mt-4 border border-light border-4 rounded">
-            <p id="bio" className="p-1 m-2">
+          <div className="col my-2">
+            <p id="bio">
               I am a new developer leveraging a background in education, military
               intelligence, and finance to provide unique perspectives on how
               people interact with technology, providing support to
-              customers, and working collaboratively with team members. I consider myself to be an innovative problem-solver who is passionate about
+              customers, and working collaboratively with team members. 
+              I consider myself to be an innovative problem-solver who is passionate about
               developing apps with a focus on mobile-first design and
               development and is currently completing a full-stack web
               development bootcamp through the University of Minnesota.
               My strengths are in creativity, teamwork, building projects,
-              customer service, and research as a result of spending four years in Naval intelligence, working collaboratively on a team and witnessing how people of all ages interact with technology while teaching in the classroom, and honing my research skills in my post-secondary education and in my learning of new coding languages.
+              customer service, and research as a result of spending four years in 
+              Naval intelligence, working collaboratively on a team and witnessing 
+              how people of all ages interact with technology while teaching in the classroom, and honing my research skills in my post-secondary education and in my learning of new coding languages.
             </p>
           </div>
         </div>
