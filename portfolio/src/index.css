@@ -226,7 +226,7 @@ label {
 #foot {
   color: var(--secondary);
   text-align: center;
-  font-size: 0.9375em;
+  font-size: 1em;
   font-family: 'Courier New', Courier, monospace;
 }
 
