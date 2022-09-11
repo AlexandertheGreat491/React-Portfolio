@@ -94,7 +94,7 @@ header h1 {
 #bio {
   color: var(--secondary);
   font-size: 1em;
-  width: 60%;
+  width: 78%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
