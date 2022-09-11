@@ -77,9 +77,15 @@ Collaborators:
 
 Sources:
 
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)
+
 [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
+[Basic Concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#the_flex_container)
+
 [Bootstrap Cards](https://getbootstrap.com/docs/4.1/components/card/)
+
+[CSS Layout](https://www.w3schools.com/css/css_float.asp)
 
 [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
 
@@ -94,6 +100,8 @@ Sources:
 [Highlight The Active Navigation Bar Link Using NavLink in React](https://staceycarrillo.medium.com/highlight-the-active-navigation-bar-link-using-navlink-in-react-d44f5d8bf997)
 
 [How to Delete a Git Branch Both Locally and Remotely](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
+
+[How to move an entire dive element up x pixels](https://stackoverflow.com/questions/7152550/how-to-move-an-entire-div-element-up-x-pixels)
 
 [How to add comments to JSX](https://www.educative.io/answers/how-to-add-comments-in-jsx)
 
