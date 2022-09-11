@@ -182,8 +182,12 @@ label {
 }
 
 #form div {
-  margin-left: 34.375em;
-  display: inline-block;
+  margin-left: 3em;
+  margin-right: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
 }
 
 #submit {
