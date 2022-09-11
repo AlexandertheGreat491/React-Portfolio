@@ -99,6 +99,7 @@ header h1 {
   flex-wrap: wrap;
   flex-direction: column;
   float: right;
+  position: relative;
 }
 
 #about {
