@@ -188,6 +188,8 @@ label {
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
+  border: 0.75em groove var(--quaternary);
+  border-radius: 0.625em;
 }
 
 #submit {
@@ -196,11 +198,11 @@ label {
   border: 0.3125em groove var(--quaternary);
   border-radius: 0.625em;
   margin-left: 38.75em;
-}
-
-#all {
-  border: 0.75em groove var(--quaternary);
-  border-radius: 0.625em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  float: right;
 }
 
 /*Resume component styling */
@@ -208,7 +210,7 @@ label {
 #Resume {
   color: var(--secondary);
   text-align: center;
-  border: 0.75em groove var(--quaternary);
+  border: 0.5em groove var(--quaternary);
   border-radius: 0.625em;
 }
 
