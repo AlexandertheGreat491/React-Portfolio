@@ -107,6 +107,7 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  position: relative;
   border: 0.625em groove var(--quaternary);
   border-radius: 0.625em;
   font-family: 'Courier New', Courier, monospace;

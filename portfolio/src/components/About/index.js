@@ -9,7 +9,7 @@ function About() {
     <article id="about" className="container mt-3">
       <section className="my-2">
         <div className="col m-2">
-          <h2 id="me">About Me</h2>
+          <h2 id="me" className="mb-5">About Me</h2>
           <img
             id="handsome"
             src={profileImage}
@@ -20,7 +20,7 @@ function About() {
             className="col"
             style={{ position: "relative", top: "-10.9375em" }}
           >
-            <p id="bio" className="mr-4">
+            <p id="bio" className="mt-4">
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
               on how people interact with technology, providing support to
@@ -32,7 +32,7 @@ function About() {
             </p>
           </div>
           <div className="col" style={{ position: "relative", top: "-10.9375em" }}>
-            <p id="bio" className="mr-4">
+            <p id="bio" className="mt-4">
               My strengths are in creativity, teamwork, building projects,
               customer service, and research as a result of spending four years
               in Naval intelligence, working collaboratively on a team and
