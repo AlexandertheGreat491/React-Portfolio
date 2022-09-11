@@ -20,6 +20,7 @@ import textEditor from "../../assets/projects/app_screenshot.jpg";
 // imports the image for the E-Commerce-Back-end
 import eCommerce from "../../assets/projects/E_Commerce_Backend.jpg";
 
+// imports the GitHub icon
 import {FaGithub} from 'react-icons/fa';
 
 function Project() {

@@ -29,7 +29,7 @@ function App() {
           currentCategory={currentCategory}
         ></Nav>
       </div>
-      <div id="main">
+      <div id='main'>
         {currentCategory === categories[0] && <About></About>}
         {currentCategory === categories[1] && <Project></Project>}
         {currentCategory === categories[2] && <Contact></Contact>}
