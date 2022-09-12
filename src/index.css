@@ -1,4 +1,5 @@
 /*General app styling*/
+
 /*colors taken from https://coolors.co/93827f-f3f9d2-bdc4a7-2f2f2f-92b4a7*/
 :root {
 --primary: #93827fff; /*cinereous*/
@@ -66,7 +67,8 @@ header h1 {
 
 #navigation {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
 }
