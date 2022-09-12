@@ -6,6 +6,7 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Resume from "./components/Resume"
 import Nav from "./components/Nav"
+import './App.css';
 
 
 function App() {
