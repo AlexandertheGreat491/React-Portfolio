@@ -1,73 +1,55 @@
-# Getting Started with Create React App
+# React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+Please use this table of contents to navigate this README.
 
-In the project directory, you can run:
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A portfolio utilizing React to showcase my web development work.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- What was your motivation?
 
-### `npm test`
+My motivation was to create a portfolio of my web development work utilizing React, so that I could have a portfolio that I could improve over time and have more contorl of how the app is affected when I make changes to it in the future, as well as demonstrating my overall proficiency in React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- What did you learn?
 
-### `npm run build`
+I learned that JSX is similar to HTML, but in many ways very different in how it can be styled especially if any components are designed to be rendered conditionally. I learned that many aspects of Bootstrap work in ways in JSX that are very similar to HTML, but the syntax is different and that one component can be styled without affecting the other components. Additionally, I learned that deploying a React app to GitHub Pages is very complex after I encountered technical difficulties that were significant enough prevent me from deploying the app to GitHub Pages and having to resort to deploying the app to Heroku instead of GitHub Pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please utilize the following steps to install and deploy the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Step 1: Create a folder where you want the app to reside on your local computer.
 
-### `npm run eject`
+Step 2: Create a repository on GitHub and use the `git clone` command to clone the repository to the folder that you just created.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Step 3: Run the command `npx create-react-app <name of your app>` to create a development version of the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Step 4: Then copy the src folder from the [Public Repository](https://github.com/AlexandertheGreat491/React-Portfolio.git) and make any needed changes to the package.json.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Step 5: Save, then add, then commit to your repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Step 6: If you want to deploy the app utilizing GitHub Pages first add a homepage field to your package.json `"homepage": "https://myusername.github.io/my-app"`then run `npm install --save gh-pages` then modify the scripts to include `"predeploy": "npm run build", "deploy": "gh-pages -d build"` then save, add, and commit and run `npm run build`.
 
-## Learn More
+Step 7: If step 6 does not work you may need to change the second of the two scripts that you just added to your package.json `"deploy": "gh-pages -b main -d build"`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Step 8: Alternatively, if you want to deploy the app using Heroku run `heroku login` then run `heroku create`. Then run the command `git push heroku main` and once the build has succeeded go to your Heroku dashboard and select the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Step 9: Before beginning this step make sure that your GitHub account is linked to your Heroku account. Click on the Deploy tab and then click on GitHub. Then begin typing the name of your repository and then you should be able to select it from a list, then click connect. Also, make sure to enable automatic deployments from your main branch! Now when you go back to your repository in your browser and hit the refresh button you should see your new Heroku app under Environments on the right hand side of the screen. Now the app is deployed and you can continue to modify it as needed!
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app can be used locally by running the `git clone` command to clone the [Public Repository](https://github.com/AlexandertheGreat491/React-Portfolio.git) and then running the command `npm start`. The app can be utlized once deployed by following the Installation instructions above.
 
-### Analyzing the Bundle Size
+The following screenshots give an idea for how the app can be used.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## Credits
 
@@ -84,6 +66,8 @@ Sources:
 [Basic Concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#the_flex_container)
 
 [Bootstrap Cards](https://getbootstrap.com/docs/4.1/components/card/)
+
+[Create React App](https://github.com/facebook/create-react-app)
 
 [CSS Layout](https://www.w3schools.com/css/css_float.asp)
 
