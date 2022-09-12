@@ -46,7 +46,7 @@ Step 9: Before beginning this step make sure that your GitHub account is linked 
 
 ## Usage
 
-The app can be used locally by running the `git clone` command to clone the [Public Repository](https://github.com/AlexandertheGreat491/React-Portfolio.git) and then running the command `npm start`. The app can be utlized once deployed by following the Installation instructions above.
+The app can be used locally by running the `git clone` command to clone the [Public Repository](https://github.com/AlexandertheGreat491/React-Portfolio.git) and then running the command `npm start`. Please visiti the link to the [deployed application](https://blooming-spire-21092.herokuapp.com/) to utilize the deployed version of the application. The app can be utlized once deployed by following the Installation instructions above.
 
 The following screenshots give an idea for how the app can be used.
 
