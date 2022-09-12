@@ -91,3 +91,5 @@ function Project() {
 }
 
 export default Project;
+
+// FaGithub icon found at https://react-icons.github.io/react-icons/icons?name=fa
