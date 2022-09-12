@@ -50,6 +50,17 @@ The app can be used locally by running the `git clone` command to clone the [Pub
 
 The following screenshots give an idea for how the app can be used.
 
+           
+![screenshot1](https://user-images.githubusercontent.com/64184203/189713518-d50107db-0616-4d53-bf30-e834e960b950.jpg)
+
+![screenshot2](https://user-images.githubusercontent.com/64184203/189713707-8f2ae7a3-4af9-4ece-a492-c0ea69bea547.jpg)
+
+![screenshot3](https://user-images.githubusercontent.com/64184203/189713791-40485b9a-b3ca-4859-a462-72e7939ffcad.jpg)
+
+![screenshot4](https://user-images.githubusercontent.com/64184203/189713832-f2e04cab-8c31-4ef2-8c16-c7b9f36bdb15.jpg)
+
+![screenshot5](https://user-images.githubusercontent.com/64184203/189713870-7c5b3871-2cd0-4375-b579-3fc08e3bb479.jpg)
+
 
 ## Credits
 
