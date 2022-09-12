@@ -91,6 +91,8 @@ Sources:
 
 [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 
+[Deployement](https://create-react-app.dev/docs/deployment/#github-pages)
+
 [DOM Elements](https://reactjs.org/docs/dom-elements.html#style)
 
 [Font Awesome](https://react-icons.github.io/react-icons/icons?name=fa)
