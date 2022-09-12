@@ -1,3 +1,13 @@
+/*General app styling*/
+/*colors taken from https://coolors.co/93827f-f3f9d2-bdc4a7-2f2f2f-92b4a7*/
+:root {
+--primary: #93827fff; /*cinereous*/
+--secondary: #f3f9d2ff; /*light-goldenrod-yellow*/
+--tertiary: #bdc4a7ff; /*laurel-green*/
+--background: #2f2f2fff; /*jet*/
+--quaternary: #92b4a7ff; /*cambridge-blue*/
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +21,219 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/*Root styling */
+#app {
+  background-color: var(--background);
+}
+
+#main{
+  margin-top: 14.375em;
+  margin-bottom: 8.125em;
+  margin-right: 1.25em;
+  margin-left: 1.25em;
+}
+
+/*Header component styling */
+
+header {
+  background-color: var(--primary);
+}
+
+header h1 {
+  color: var(--tertiary);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3.75em;
+  font-weight: 700;
+}
+
+/*Nav component styling*/
+
+#nav-item {
+  background-color: var(--primary) ;
+  color: var(--tertiary);
+  font-weight: 700;
+  font-size: 1.25em;
+  margin-top: 1.875em;
+  border: 0.3125em groove var(--quaternary);
+  border-radius: 0.625em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+/*About component styling*/
+
+#me {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: var(--secondary);
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.1875em;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#handsome {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#bio {
+  color: var(--secondary);
+  font-size: 1em;
+  width: 78%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  float: right;
+  position: relative;
+}
+
+#about {
+  background-color: var(--primary) ;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  border: 0.625em groove var(--quaternary);
+  border-radius: 0.625em;
+  font-family: 'Courier New', Courier, monospace;
+  width: 200em;
+  height: 50em;
+}
+
+/*Project component styling */
+
+.card {
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1.25em;
+  border: 0.75em groove var(--quaternary);
+  border-radius: 0.625em;
+}
+
+#projects img {
+  height: 12.5em;
+  width: 25em;
+}
+
+#projects a {
+  color: var(--quaternary);
+  font-weight: 700;
+}
+
+#six {
+  color: var(--secondary);
+  justify-content: center;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.1875em;
+}
+
+/*Contact component styling*/
+
+#contact {
+  color: var(--secondary);
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.1875em;
+  text-decoration: underline;
+  text-align: center;
+}
+
+label {
+  color: var(--secondary);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.125em;
+}
+
+#name {
+  margin-right: 5.625em;
+}
+
+#email {
+  margin-right: 0.375em;
+}
+
+#message {
+  margin-right: 4.375em; 
+}
+
+#form div {
+  margin-left: 3em;
+  margin-right: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  border: 0.75em groove var(--quaternary);
+  border-radius: 0.625em;
+}
+
+#submit {
+  color: var(--secondary);
+  background-color: var(--primary);
+  border: 0.3125em groove var(--quaternary);
+  border-radius: 0.625em;
+  margin-left: 38.75em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  float: right;
+}
+
+/*Resume component styling */
+
+#Resume {
+  color: var(--secondary);
+  text-align: center;
+  border: 0.5em groove var(--quaternary);
+  border-radius: 0.625em;
+}
+
+#Resume h1 {
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.1875em;
+  text-decoration: underline;
+}
+
+#Resume h2 {
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.875em;
+  text-decoration: underline;
+}
+
+/*Footer component styling */
+#foot {
+  color: var(--secondary);
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+

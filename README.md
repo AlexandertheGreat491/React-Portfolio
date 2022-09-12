@@ -68,3 +68,73 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Credits
+
+Collaborators:
+
+[Alex Van Dyke](https://github.com/AlexandertheGreat491)
+
+Sources:
+
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)
+
+[Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+[Basic Concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#the_flex_container)
+
+[Bootstrap Cards](https://getbootstrap.com/docs/4.1/components/card/)
+
+[CSS Layout](https://www.w3schools.com/css/css_float.asp)
+
+[CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
+
+[CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+
+[DOM Elements](https://reactjs.org/docs/dom-elements.html#style)
+
+[Font Awesome](https://react-icons.github.io/react-icons/icons?name=fa)
+
+[Grouping Multiple CSS Selectors](https://www.thoughtco.com/grouping-multiple-css-selectors-3467065)
+
+[Highlight The Active Navigation Bar Link Using NavLink in React](https://staceycarrillo.medium.com/highlight-the-active-navigation-bar-link-using-navlink-in-react-d44f5d8bf997)
+
+[How to Delete a Git Branch Both Locally and Remotely](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
+
+[How to move an entire dive element up x pixels](https://stackoverflow.com/questions/7152550/how-to-move-an-entire-div-element-up-x-pixels)
+
+[How to add comments to JSX](https://www.educative.io/answers/how-to-add-comments-in-jsx)
+
+[How to Create the Copyright Symbol in HTML](https://careerkarma.com/blog/html-copyright-symbol/#:~:text=You%20can%20create%20an%20HTML,character%20onto%20the%20web%20page.)
+
+[How to add multiple attributes to a react element? duplicate](https://stackoverflow.com/questions/34846352/how-to-add-multiple-style-attributes-to-a-react-element)
+
+[How to Align Labels Next to Inputs](https://www.w3docs.com/snippets/html/how-to-align-labels-next-to-inputs.html)
+
+[How to create a bullet list with no bullets in HTML](https://www.computerhope.com/issues/ch001704.htm#:~:text=HTML%20example,removes%20any%20bullet%20or%20number.)
+
+[HTML Lists](https://www.w3schools.com/html/html_lists.asp)
+
+[Pixels to Ems Conversion](https://www.w3schools.com/tags/ref_pxtoemconversion.asp)
+
+[justify-content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
+
+[:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
+
+[React Docs](https://reactjs.org/docs/getting-started.html)
+
+[react-dom](https://www.npmjs.com/package/react-dom)
+
+[react-scripts](https://www.npmjs.com/package/react-scripts)
+
+[react-icons](https://react-icons.github.io/react-icons/)
+
+[@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom)
+
+[@testing-library/react](https://www.npmjs.com/package/@testing-library/react)
+
+[width](https://developer.mozilla.org/en-US/docs/Web/CSS/width)
+
+## License
+
+[Link to license](./LICENSE)
