@@ -142,6 +142,7 @@ header h1 {
 #projects a {
   color: var(--primary);
   font-weight: 700;
+  margin-top: 0.1875em;
 }
 
 #six {
