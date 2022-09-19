@@ -140,7 +140,7 @@ header h1 {
 }
 
 #projects a {
-  color: var(--quaternary);
+  color: var(--primary);
   font-weight: 700;
 }
 
