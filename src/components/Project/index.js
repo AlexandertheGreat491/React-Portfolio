@@ -12,7 +12,7 @@ import juliasChildren from "../../assets/projects/Julias_Children_Screenshot_upd
 import weatherDashbord from "../../assets/projects/Weather Dashboard.jpg";
 
 // imports the image for the Social-Network-API
-import googleBooks from "../../assets/projects/google_books_screenshot.jpg";
+import googleBooks from "../../assets/projects/googel_books_screenshot.jpg";
 
 // imports the image for the PWA-Text-Editor app
 import textEditor from "../../assets/projects/app_screenshot.jpg";
