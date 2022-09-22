@@ -12,7 +12,7 @@ import juliasChildren from "../../assets/projects/Julias_Children_Screenshot_upd
 import weatherDashbord from "../../assets/projects/Weather Dashboard.jpg";
 
 // imports the image for the Social-Network-API
-import socialNetwork from "../../assets/projects/Social-Network-API.jpg";
+import googleBooks from "../../assets/projects/google_books_screenshot.jpg";
 
 // imports the image for the PWA-Text-Editor app
 import textEditor from "../../assets/projects/app_screenshot.jpg";
@@ -45,10 +45,10 @@ function Project() {
       repo: "https://github.com/AlexandertheGreat491/furry-octo-succotash.git",
     },
     {
-      name: "Social-Network-API",
-      imgsrc: socialNetwork,
-      link: "https://vimeo.com/743245394",
-      repo: "https://github.com/AlexandertheGreat491/Social-Network-API.git",
+      name: "Book-Search-Engine",
+      imgsrc: googleBooks,
+      link: "https://desolate-atoll-15843.herokuapp.com/",
+      repo: "https://github.com/AlexandertheGreat491/Book-Search-Engine.git",
     },
     {
       name: "PWA-Text-Editor",
