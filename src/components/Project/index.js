@@ -77,7 +77,7 @@ function Project() {
               className="card mt-5 mb-2 container align-items-center"
               style={{ backgroundImage: `url(${project.imgsrc})`, width: '18.75em', height: '25em' }} 
             >
-              <a className="m-2" href={project.link}>
+              <a className="mt-2" href={project.link}>
                 {project.name}
               </a>
               <a className="mt-2 mb-2 me-2 ms-4" style={{width:'30%', height:'30%'}} href={project.repo}>
