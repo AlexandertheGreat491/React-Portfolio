@@ -18,7 +18,7 @@ import googleBooks from "../../assets/projects/googel_books_screenshot.jpg";
 import textEditor from "../../assets/projects/app_screenshot.jpg";
 
 // imports the image for the E-Commerce-Back-end
-import eCommerce from "../../assets/projects/E_Commerce_Backend.jpg";
+import whatsSoap from "../../assets/projects/whats-soap_screenshot.jpg";
 
 // imports the GitHub icon
 import {FaGithub} from 'react-icons/fa';
@@ -56,11 +56,12 @@ function Project() {
       link: "https://nameless-dawn-90589.herokuapp.com/",
       repo: "https://github.com/AlexandertheGreat491/PWA-Text-Editor.git",
     },
+    // project 3
     {
-      name: "E-Commerce-Back-End",
-      imgsrc: eCommerce,
-      link: "https://vimeo.com/732172741",
-      repo: "https://github.com/AlexandertheGreat491/E-Commerce-Back-End.git",
+      name: "What's Soap?",
+      imgsrc: whatsSoap,
+      link: "https://whats-soap.herokuapp.com/",
+      repo: "https://github.com/AlexandertheGreat491/whats_soap.git",
     },
   ];
 
