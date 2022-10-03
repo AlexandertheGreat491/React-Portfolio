@@ -74,7 +74,7 @@ function Project() {
         {projects.map((project) => (
           <div key={project.name}>
             <div
-              className="card mt-5 container align-items-center"
+              className="card mt-5 mb-2 container align-items-center"
               style={{ backgroundImage: `url(${project.imgsrc})`, width: '18.75em', height: '25em' }} 
             >
               <a className="ms-5 me-5 mb-5" href={project.link}>
