@@ -147,6 +147,12 @@ header h1 {
   border-radius: 0.25em;
 }
 
+#link {
+  border: 0.3125em groove var(--quaternary);
+  border-radius: 0.25em;
+  background-color: var(--secondary);
+}
+
 #six {
   color: var(--secondary);
   justify-content: center;
