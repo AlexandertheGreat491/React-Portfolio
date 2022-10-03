@@ -80,7 +80,7 @@ function Project() {
               <a className="ms-5 me-5 mb-5" href={project.link}>
                 {project.name}
               </a>
-              <a style={{width:'30%', height:'30%'}} href={project.repo}>
+              <a style={{width:'30%', height:'30%'}} className="justify-content-center" href={project.repo}>
                 <FaGithub/>
               </a>
             </div>
