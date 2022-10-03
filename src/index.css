@@ -142,7 +142,7 @@ header h1 {
 #projects a {
   color: var(--quaternary);
   font-weight: 700;
-  margin-top: 2.5em;
+  font-size: 0.9375em;
 }
 
 #six {
