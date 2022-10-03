@@ -143,8 +143,6 @@ header h1 {
   color: var(--quaternary);
   font-weight: 700;
   font-size: 0.9375em;
-  border: 0.3125em groove var(--quaternary);
-  border-radius: 0.25em;
 }
 
 #link {
