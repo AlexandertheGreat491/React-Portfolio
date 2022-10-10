@@ -185,16 +185,31 @@ label {
   font-size: 1.125em;
 }
 
-#name {
-  margin-right: 5.625em;
+#from {
+  margin-right: 0.625em;
+  font-size: 0.9375em;
+  font-weight: 500;
 }
 
-#email {
-  margin-right: 0.375em;
+#to {
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
 }
 
 #message {
-  margin-right: 4.375em; 
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
+}
+
+#email {
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
 }
 
 #form div {
@@ -207,6 +222,8 @@ label {
 }
 
 #submit {
+  font-size: 0.9375em;
+  font-weight: 600;
   color: var(--secondary);
   background-color: var(--tertiary);
   border: 0.3125em groove var(--quaternary);
@@ -245,6 +262,7 @@ label {
 /*Footer component styling */
 #foot {
   color: var(--secondary);
+  background-color: var(--primary);
   text-align: center;
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
