@@ -174,7 +174,6 @@ header h1 {
 }
 
 .contactform {
-  width: fit-content;
   border: 0.375em groove var(--quaternary);
   border-radius: 0.625em;
   background-color: var(--primary);
