@@ -197,6 +197,15 @@ label {
   margin-right: 4.375em; 
 }
 
+#form div {
+  margin-left: 3em;
+  margin-right: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+}
+
 #submit {
   color: var(--secondary);
   background-color: var(--tertiary);
