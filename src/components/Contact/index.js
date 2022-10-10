@@ -35,9 +35,9 @@ function Contact() {
     }
   };
   return (
-    <section className="card justify-content-center contactform">
+    <section className="card container contactform ms-5">
       <form className="contactform card-body" onSubmit={handleSubmit}>
-        <h1 id="contact" className="mb-5 card-header">
+        <h1 id="contact" className="mb-4 card-header">
           Contact Me
         </h1>
         <div>
