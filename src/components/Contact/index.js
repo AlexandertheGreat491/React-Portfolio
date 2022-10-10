@@ -41,7 +41,7 @@ function Contact() {
           Contact Me
         </h1>
         <div>
-          <label htmlFor="name">
+          <label id="name" htmlFor="name">
             Name:
           </label>
           <input
@@ -52,7 +52,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">
+          <label id="email" htmlFor="email">
             Email address:
           </label>
           <input
@@ -63,7 +63,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="message">
+          <label id="message" htmlFor="message">
             Message:
           </label>
           <textarea

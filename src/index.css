@@ -185,7 +185,7 @@ label {
   font-size: 1.125em;
 }
 
-/* #name {
+#name {
   margin-right: 5.625em;
 }
 
@@ -195,7 +195,7 @@ label {
 
 #message {
   margin-right: 4.375em; 
-} */
+}
 
 #submit {
   color: var(--secondary);
