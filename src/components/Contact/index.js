@@ -35,13 +35,13 @@ function Contact() {
     }
   };
   return (
-    <section className="card justify-content-center contactform">
+    <section className="card justify-content-center contactform ms-5">
       <form className="contactform card-body" onSubmit={handleSubmit}>
         <h1 id="contact" className="mb-5 card-header">
           Contact Me
         </h1>
-        <div className="m-2">
-          <label id="name" htmlFor="name">
+        <div>
+          <label htmlFor="name">
             Name:
           </label>
           <input
@@ -51,8 +51,8 @@ function Contact() {
             onBlur={handleChange}
           />
         </div>
-        <div className="m-2">
-          <label id="email" className="mb-3" htmlFor="email">
+        <div>
+          <label htmlFor="email">
             Email address:
           </label>
           <input
@@ -62,8 +62,8 @@ function Contact() {
             onBlur={handleSubmit}
           />
         </div>
-        <div className="m-2">
-          <label id="message" className="mb-2" htmlFor="message">
+        <div>
+          <label htmlFor="message">
             Message:
           </label>
           <textarea
