@@ -35,11 +35,15 @@ function Contact() {
     }
   };
   return (
-    <section className="card contactform">
-      <form className=" contactform card-body" onSubmit={handleSubmit}>
-      <h1 id="contact" className="mb-5 card-header">Contact Me</h1>
+    <section className="card justify-content-center contactform">
+      <form className="contactform card-body" onSubmit={handleSubmit}>
+        <h1 id="contact" className="mb-5 card-header">
+          Contact Me
+        </h1>
         <div className="m-2">
-          <label id="name" htmlFor="name">Name:</label>
+          <label id="name" htmlFor="name">
+            Name:
+          </label>
           <input
             type="text"
             name="name"
@@ -48,7 +52,9 @@ function Contact() {
           />
         </div>
         <div className="m-2">
-          <label id="email" className="mb-3" htmlFor="email">Email address:</label>
+          <label id="email" className="mb-3" htmlFor="email">
+            Email address:
+          </label>
           <input
             type="email"
             name="email"
@@ -57,7 +63,9 @@ function Contact() {
           />
         </div>
         <div className="m-2">
-          <label id="message" className="mb-2" htmlFor="message">Message:</label>
+          <label id="message" className="mb-2" htmlFor="message">
+            Message:
+          </label>
           <textarea
             name="message"
             rows="5"
