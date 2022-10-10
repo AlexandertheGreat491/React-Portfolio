@@ -170,6 +170,9 @@ header h1 {
   font-size: 2.1875em;
   text-decoration: underline;
   text-align: center;
+  width: fit-content;
+  border: 0.375em groove var(--quaternary);
+  border-radius: 0.625em;
 }
 
 label {
@@ -197,8 +200,6 @@ label {
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
-  border: 0.75em groove var(--quaternary);
-  border-radius: 0.625em;
 }
 
 #submit {
