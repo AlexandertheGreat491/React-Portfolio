@@ -56,7 +56,7 @@ function Project() {
       link: "https://nameless-dawn-90589.herokuapp.com/",
       repo: "https://github.com/AlexandertheGreat491/PWA-Text-Editor.git",
     },
-    // project 3
+    
     {
       name: "What's Soap?",
       imgsrc: whatsSoap,
