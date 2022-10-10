@@ -178,6 +178,7 @@ header h1 {
   border: 0.375em groove var(--quaternary);
   border-radius: 0.625em;
   background-color: var(--primary);
+  margin-left: 40px;
 }
 
 label {
