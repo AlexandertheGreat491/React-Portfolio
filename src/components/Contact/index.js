@@ -36,7 +36,7 @@ function Contact() {
   };
   return (
     <section className="card contactform">
-      <h1 id="contact" className="mb-5 card-header">Contact Me</h1>
+      <h1 id="contact" className="mb-5 card-header contactform">Contact Me</h1>
       <form className=" contactform card-body" onSubmit={handleSubmit}>
         <div className="m-2">
           <label id="name" htmlFor="name">Name:</label>

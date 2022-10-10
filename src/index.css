@@ -199,7 +199,7 @@ label {
 
 #submit {
   color: var(--secondary);
-  background-color: var(--primary);
+  background-color: var(--tertiary);
   border: 0.3125em groove var(--quaternary);
   border-radius: 0.625em;
   margin-left: 38.75em;
