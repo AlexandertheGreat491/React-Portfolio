@@ -15,11 +15,11 @@ function About() {
           </h2>
           <h1 id="stackheader">What's in my stack?</h1>
           <img
-          id="stack"
-          src={mernLogo}
-          alt="stack"
-          style={{ width: "20%" }}
-          className="mt-1 mb-2"
+            id="stack"
+            src={mernLogo}
+            alt="stack"
+            style={{ width: "20%" }}
+            className="mt-1 mb-2"
           />
           <img
             id="handsome"
@@ -31,6 +31,7 @@ function About() {
             className="col"
             style={{ position: "relative", top: "-10.9375em" }}
           >
+            <h1 id="bioheader">Who am I?</h1>
             <p id="bio" className="mt-4">
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
