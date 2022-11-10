@@ -3,8 +3,10 @@ import React from "react";
 // imports my profile picture
 import profileImage from "../../assets/images/profile picture.JPG";
 import mernLogo from "../../assets/images/MERN-LOGO.jpg";
+import { FaAsterisk } from "react-icons/fa";
 
 // About-Me section of the portfolio
+// reference https://commons.wikimedia.org/wiki/File:MERN-logo.png
 function About() {
   return (
     <article id="about" className="container mt-3">
@@ -42,6 +44,7 @@ function About() {
               design and development and is currently completing a full-stack
               web development bootcamp through the University of Minnesota.
             </p>
+            <FaAsterisk id="stack"/>
           </div>
           <div
             className="col"
