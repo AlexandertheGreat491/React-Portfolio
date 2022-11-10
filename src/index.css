@@ -123,6 +123,7 @@ header h1 {
   text-align: center;
   display: flex;
   flex-direction: row;
+  margin-left: 430px;
 }
 
 #stackheader {

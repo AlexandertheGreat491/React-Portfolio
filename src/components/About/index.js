@@ -2,9 +2,9 @@
 import React from "react";
 // imports my profile picture
 import profileImage from "../../assets/images/profile picture.JPG";
+import mernLogo from "../../assets/images/MERN-LOGO.jpg";
 
 // About-Me section of the portfolio
-// references https://stackoverflow.com/questions/43768629/how-to-scale-large-font-awesome-icons-from-the-react-icons-package
 function About() {
   return (
     <article id="about" className="container mt-3">
@@ -13,7 +13,14 @@ function About() {
           <h2 id="me" className="mb-5">
             About Me
           </h2>
-          
+          <h1 id="stackheader">What's in my stack?</h1>
+          <img
+          id="stack"
+          src={mernLogo}
+          alt="stack"
+          style={{ width: "20%" }}
+          className="mt-1"
+          />
           <img
             id="handsome"
             src={profileImage}
