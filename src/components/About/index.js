@@ -2,17 +2,6 @@
 import React from "react";
 // imports my profile picture
 import profileImage from "../../assets/images/profile picture.JPG";
-// imports the Simple Icons
-// imports the MongoDB icon
-import { SiMongodb } from "react-icons/si";
-// imports the Font Awesome icons
-//imports the React icon
-import { FaReact } from "react-icons/fa";
-// imports the Express Simple Icon
-import { SiExpress } from "react-icons/si";
-// imports the Nodejs icon
-import { DiNodejsSmall } from "react-icons/di";
-
 
 // About-Me section of the portfolio
 // references https://stackoverflow.com/questions/43768629/how-to-scale-large-font-awesome-icons-from-the-react-icons-package
@@ -24,10 +13,7 @@ function About() {
           <h2 id="me" className="mb-5">
             About Me
           </h2>
-          <h1 id="stackheader">What's in my stack?</h1>
-          <p className="justify-content-center mt-1"  id="stack">
-            <SiMongodb size={40} className="m-2" /> <FaReact size={40} className="m-2" /> <SiExpress size={40} className="m-2"/> <DiNodejsSmall size={40} className="m-2"/>
-          </p>
+          
           <img
             id="handsome"
             src={profileImage}
