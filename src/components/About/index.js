@@ -6,6 +6,7 @@ import profileImage from "../../assets/images/profile picture.JPG";
 import { FaReact } from "react-icons/fa";
 
 // About-Me section of the portfolio
+// references https://stackoverflow.com/questions/43768629/how-to-scale-large-font-awesome-icons-from-the-react-icons-package
 function About() {
   return (
     <article id="about" className="container mt-3">
@@ -13,7 +14,7 @@ function About() {
         <div className="col m-2">
           <h2 id="me" className="mb-5">About Me</h2>
           <h1 id="stackheader">What's in my stack?</h1>
-            <p id="stack"><FaReact/></p>
+            <p id="stack"><FaReact size={40}/></p>
           <img
             id="handsome"
             src={profileImage}
