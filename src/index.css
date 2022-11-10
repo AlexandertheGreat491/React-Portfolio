@@ -117,6 +117,17 @@ header h1 {
   height: 50em;
 }
 
+#stack {
+  color: var(--secondary);
+  background-color: var(--primary);
+  text-align: center;
+}
+
+#stackheader {
+  color: var(--secondary);
+  text-align: center;
+}
+
 /*Project component styling */
 
 .card {

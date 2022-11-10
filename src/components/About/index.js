@@ -12,6 +12,8 @@ function About() {
       <section className="my-2">
         <div className="col m-2">
           <h2 id="me" className="mb-5">About Me</h2>
+          <h1 id="stackheader">What's in my stack?</h1>
+            <p id="stack"><FaReact/></p>
           <img
             id="handsome"
             src={profileImage}
@@ -22,9 +24,8 @@ function About() {
             className="col"
             style={{ position: "relative", top: "-10.9375em" }}
           >
-            <h1>What's in my stack?</h1>
-            <p><FaReact/></p>
             
+
             <p id="bio" className="mt-4">
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
