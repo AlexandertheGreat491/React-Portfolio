@@ -19,7 +19,7 @@ function About() {
           src={mernLogo}
           alt="stack"
           style={{ width: "20%" }}
-          className="mt-1"
+          className="mt-1 mb-2"
           />
           <img
             id="handsome"
