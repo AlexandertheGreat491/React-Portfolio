@@ -44,7 +44,7 @@ function About() {
               design and development and is currently completing a full-stack
               web development bootcamp through the University of Minnesota.
             </p>
-            <FaAsterisk id="stack"/>
+            <FaAsterisk id="stack" size={15}/> <FaAsterisk id="stack" size={15}/> <FaAsterisk id="stack" size={15}/> 
           </div>
           <div
             className="col"
