@@ -121,13 +121,14 @@ header h1 {
   color: var(--secondary);
   background-color: var(--primary);
   text-align: center;
-  
+  display: flex;
+  flex-direction: row;
 }
 
 #stackheader {
   color: var(--secondary);
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.5625em;
 }
 
 /*Project component styling */

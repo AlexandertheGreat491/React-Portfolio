@@ -2,8 +2,17 @@
 import React from "react";
 // imports my profile picture
 import profileImage from "../../assets/images/profile picture.JPG";
+// imports the Simple Icons
+// imports the MongoDB icon
+import { SiMongodb } from "react-icons/si";
 // imports the Font Awesome icons
+//imports the React icon
 import { FaReact } from "react-icons/fa";
+// imports the Express Simple Icon
+import { SiExpress } from "react-icons/si";
+// imports the Nodejs icon
+import { DiNodejsSmall } from "react-icons/di";
+
 
 // About-Me section of the portfolio
 // references https://stackoverflow.com/questions/43768629/how-to-scale-large-font-awesome-icons-from-the-react-icons-package
@@ -12,9 +21,13 @@ function About() {
     <article id="about" className="container mt-3">
       <section className="my-2">
         <div className="col m-2">
-          <h2 id="me" className="mb-5">About Me</h2>
+          <h2 id="me" className="mb-5">
+            About Me
+          </h2>
           <h1 id="stackheader">What's in my stack?</h1>
-            <p id="stack"><FaReact size={40}/></p>
+          <p className="justify-content-center mt-1"  id="stack">
+            <SiMongodb size={40} className="m-2" /> <FaReact size={40} className="m-2" /> <SiExpress size={40} className="m-2"/> <DiNodejsSmall size={40} className="m-2"/>
+          </p>
           <img
             id="handsome"
             src={profileImage}
@@ -25,8 +38,6 @@ function About() {
             className="col"
             style={{ position: "relative", top: "-10.9375em" }}
           >
-            
-
             <p id="bio" className="mt-4">
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
@@ -38,7 +49,10 @@ function About() {
               web development bootcamp through the University of Minnesota.
             </p>
           </div>
-          <div className="col" style={{ position: "relative", top: "-10.9375em" }}>
+          <div
+            className="col"
+            style={{ position: "relative", top: "-10.9375em" }}
+          >
             <p id="bio" className="mt-4">
               My strengths are in creativity, teamwork, building projects,
               customer service, and research as a result of spending four years
