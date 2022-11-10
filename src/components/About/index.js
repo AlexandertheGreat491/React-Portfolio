@@ -34,7 +34,7 @@ function About() {
             style={{ position: "relative", top: "-10.9375em" }}
           >
             <h1 id="bioheader">Who am I?</h1>
-            <p id="bio" className="mt-4">
+            <p id="bio" className="mt-4 ms-3">
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
               on how people interact with technology, providing support to
@@ -43,14 +43,16 @@ function About() {
               passionate about developing apps with a focus on mobile-first
               design and development and is currently completing a full-stack
               web development bootcamp through the University of Minnesota.
+              <FaAsterisk id="bioicon" size={15} className="mt-4"/>  
             </p>
-            <FaAsterisk id="stack" size={15}/> <FaAsterisk id="stack" size={15}/> <FaAsterisk id="stack" size={15}/> 
+            
           </div>
+          
           <div
             className="col"
             style={{ position: "relative", top: "-10.9375em" }}
           >
-            <p id="bio" className="mt-4">
+            <p id="bio" className="mt-4 ms-3">
               My strengths are in creativity, teamwork, building projects,
               customer service, and research as a result of spending four years
               in Naval intelligence, working collaboratively on a team and
