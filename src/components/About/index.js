@@ -2,6 +2,8 @@
 import React from "react";
 // imports my profile picture
 import profileImage from "../../assets/images/profile picture.JPG";
+// imports the Font Awesome icons
+import { FaReact } from "react-icons/fa";
 
 // About-Me section of the portfolio
 function About() {
@@ -20,6 +22,9 @@ function About() {
             className="col"
             style={{ position: "relative", top: "-10.9375em" }}
           >
+            <h1>What's in my stack?</h1>
+            <p><FaReact/></p>
+            
             <p id="bio" className="mt-4">
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
