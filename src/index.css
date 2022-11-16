@@ -72,6 +72,7 @@ header h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
+  margin-left: 33.75em;
 }
 
 /*About component styling*/
