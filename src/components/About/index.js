@@ -6,7 +6,7 @@ import profileImage from "../../assets/images/profile picture.JPG";
 
 // imports the MERN logo
 import mernLogo from "../../assets/images/MERN-LOGO.jpg";
-
+//import cityImage from "../../assets/images/City.jpg";
 // imports the asterisk icon
 import { FaAsterisk } from "react-icons/fa";
 
