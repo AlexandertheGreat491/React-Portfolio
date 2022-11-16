@@ -72,7 +72,6 @@ header h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
-  background-image: url(C:\code\Challenges\React-Portfolio\src\assets\images\City.jpg);
 }
 
 /*About component styling*/
