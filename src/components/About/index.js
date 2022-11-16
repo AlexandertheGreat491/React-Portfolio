@@ -6,7 +6,8 @@ import profileImage from "../../assets/images/profile picture.JPG";
 
 // imports the MERN logo
 import mernLogo from "../../assets/images/MERN-LOGO.jpg";
-//import cityImage from "../../assets/images/City.jpg";
+import cityImage from "../../assets/images/City.jpg";
+// reference https://www.inc.com/logan-chierotti/the-future-of-transportation-is-straight-outta-science-fiction.html
 // imports the asterisk icon
 import { FaAsterisk } from "react-icons/fa";
 
@@ -15,7 +16,7 @@ import { FaAsterisk } from "react-icons/fa";
 
 function About() {
   return (
-    <article id="about" className="container mt-3">
+    <article id="about" className="container mt-3" style={{backgroundImage:`url(${cityImage})`}}>
       <section className="my-2">
         <div className="col m-2">
           <h2 id="me" className="mb-5">

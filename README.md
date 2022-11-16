@@ -92,6 +92,8 @@ Sources:
 
 [Font Awesome](https://react-icons.github.io/react-icons/icons?name=fa)
 
+[freeCodeCamp](https://www.freecodecamp.org/news/react-background-image-tutorial-how-to-set-backgroundimage-with-inline-css-style/)
+
 [Grouping Multiple CSS Selectors](https://www.thoughtco.com/grouping-multiple-css-selectors-3467065)
 
 [Highlight The Active Navigation Bar Link Using NavLink in React](https://staceycarrillo.medium.com/highlight-the-active-navigation-bar-link-using-navlink-in-react-d44f5d8bf997)
