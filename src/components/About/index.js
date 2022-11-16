@@ -1,12 +1,18 @@
 // imports react
 import React from "react";
+
 // imports my profile picture
 import profileImage from "../../assets/images/profile picture.JPG";
+
+// imports the MERN logo
 import mernLogo from "../../assets/images/MERN-LOGO.jpg";
+
+// imports the asterisk icon
 import { FaAsterisk } from "react-icons/fa";
 
 // About-Me section of the portfolio
 // reference https://commons.wikimedia.org/wiki/File:MERN-logo.png
+
 function About() {
   return (
     <article id="about" className="container mt-3">
