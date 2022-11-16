@@ -96,6 +96,7 @@ header h1 {
 #bio {
   color: var(--secondary);
   font-size: 1.125em;
+  font-weight: 600;
   width: 78%;
   display: flex;
   flex-wrap: wrap;
@@ -110,12 +111,16 @@ header h1 {
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
-  border: 0.625em groove var(--quaternary);
-  border-radius: 0.625em;
+  border: 0.9375em groove var(--quaternary);
+  border-radius: 0.9375em;
   width: 200em;
   height: 60em;
   margin-bottom: 30em;
-  margin-left: 10.9375em;
+}
+
+#top {
+  border: 5px solid black;
+  border-radius: 3px;
 }
 
 #stack {
@@ -124,19 +129,23 @@ header h1 {
   text-align: center;
   display: flex;
   flex-direction: row;
-  margin-left: 430px;
+  margin-left: 320px;
 }
 
 #stackheader {
   color: var(--secondary);
   text-align: center;
   font-size: 1.5625em;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 #bioheader {
   color: var(--secondary);
   text-align: center;
   font-size: 1.5625em;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 #bioicon {
