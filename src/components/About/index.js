@@ -6,6 +6,7 @@ import profileImage from "../../assets/images/profile picture.JPG";
 
 // imports the MERN logo
 import mernLogo from "../../assets/images/MERN-LOGO.jpg";
+
 // imports the background image
 import cityImage from "../../assets/images/City2.jpg";
 // reference https://www.inc.com/logan-chierotti/the-future-of-transportation-is-straight-outta-science-fiction.html

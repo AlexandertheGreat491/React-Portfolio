@@ -21,7 +21,7 @@ import textEditor from "../../assets/projects/app_screenshot.jpg";
 import whatsSoap from "../../assets/projects/whats-soap_screenshot.jpg";
 
 // imports the GitHub icon
-import {FaGithub} from 'react-icons/fa';
+import { FaGithub } from "react-icons/fa";
 
 function Project() {
   // six projects
@@ -56,7 +56,7 @@ function Project() {
       link: "https://nameless-dawn-90589.herokuapp.com/",
       repo: "https://github.com/AlexandertheGreat491/PWA-Text-Editor.git",
     },
-    
+
     {
       name: "What's Soap?",
       imgsrc: whatsSoap,
@@ -74,14 +74,26 @@ function Project() {
         {projects.map((project) => (
           <div key={project.name}>
             <div
-              className="card mt-5 mb-2 container align-items-center"
-              style={{ backgroundImage: `url(${project.imgsrc})`, width: '18.75em', height: '25em' }} 
+              className="card mt-3 mb-2 container"
+              style={{
+                backgroundImage: `url(${project.imgsrc})`,
+                width: "12.5em",
+                height: "12.5em",
+              }}
             >
-              <a id="link" className="mt-2" href={project.link}>
+              <a
+                id="link"
+                className="mt-2 ms-3 justify-content-center"
+                href={project.link}
+              >
                 {project.name}
               </a>
-              <a className="ms-4" style={{width:'30%', height:'30%'}} href={project.repo}>
-                <FaGithub/>
+              <a
+                className="ms-5"
+                style={{ width: "30%", height: "30%" }}
+                href={project.repo}
+              >
+                <FaGithub />
               </a>
             </div>
           </div>
