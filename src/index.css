@@ -73,6 +73,11 @@ header h1 {
   list-style: none;
 }
 
+#navheader {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
 /*About component styling*/
 
 #me {
