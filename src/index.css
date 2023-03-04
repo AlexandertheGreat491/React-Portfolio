@@ -1,4 +1,5 @@
 /*General app styling*/
+
 /*colors taken from https://coolors.co/93827f-f3f9d2-bdc4a7-2f2f2f-92b4a7*/
 :root {
 --primary: #93827fff; /*cinereous*/
@@ -22,8 +23,10 @@ code {
     monospace;
 }
 
+/* Universal styling */
 * {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*Root styling */
@@ -46,7 +49,6 @@ header {
 
 header h1 {
   color: var(--tertiary);
-  font-family: 'Courier New', Courier, monospace;
   font-size: 3.75em;
   font-weight: 700;
 }
@@ -61,13 +63,13 @@ header h1 {
   margin-top: 1.875em;
   border: 0.3125em groove var(--quaternary);
   border-radius: 0.625em;
-  font-family: 'Courier New', Courier, monospace;
+  width: 20%;
 }
 
 #navigation {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -79,7 +81,6 @@ header h1 {
   flex-direction: column;
   color: var(--secondary);
   font-weight: 700;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 2.1875em;
   text-decoration: underline;
   text-align: center;
@@ -93,7 +94,8 @@ header h1 {
 
 #bio {
   color: var(--secondary);
-  font-size: 1em;
+  font-size: 1.125em;
+  font-weight: 600;
   width: 78%;
   display: flex;
   flex-wrap: wrap;
@@ -108,11 +110,48 @@ header h1 {
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
-  border: 0.625em groove var(--quaternary);
-  border-radius: 0.625em;
-  font-family: 'Courier New', Courier, monospace;
+  border: 0.9375em groove var(--quaternary);
+  border-radius: 0.9375em;
   width: 200em;
-  height: 50em;
+  height: 60em;
+  margin-bottom: 30em;
+}
+
+#top {
+  border: 5px solid black;
+  border-radius: 3px;
+}
+
+#stack {
+  color: var(--secondary);
+  background-color: var(--primary);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 320px;
+}
+
+#stackheader {
+  color: var(--secondary);
+  text-align: center;
+  font-size: 1.5625em;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#bioheader {
+  color: var(--secondary);
+  text-align: center;
+  font-size: 1.5625em;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#bioicon {
+  color: var(--secondary);
+  background-color: var(--primary);
+  display: flex;
+  margin-left: 430px;
 }
 
 /*Project component styling */
@@ -126,7 +165,7 @@ header h1 {
 #projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 1.25em;
   border: 0.75em groove var(--quaternary);
   border-radius: 0.625em;
@@ -140,6 +179,13 @@ header h1 {
 #projects a {
   color: var(--quaternary);
   font-weight: 700;
+  font-size: 0.9375em;
+}
+
+#link {
+  border: 0.3125em groove var(--quaternary);
+  border-radius: 0.25em;
+  background-color: var(--secondary);
 }
 
 #six {
@@ -148,7 +194,6 @@ header h1 {
   text-decoration: underline;
   text-align: center;
   font-weight: 700;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 2.1875em;
 }
 
@@ -157,28 +202,48 @@ header h1 {
 #contact {
   color: var(--secondary);
   font-weight: 700;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 2.1875em;
   text-decoration: underline;
   text-align: center;
+  background-color: var(--primary);
+}
+
+.contactform {
+  border: 0.375em groove var(--quaternary);
+  border-radius: 0.625em;
+  background-color: var(--primary);
 }
 
 label {
   color: var(--secondary);
-  font-family: 'Courier New', Courier, monospace;
   font-size: 1.125em;
 }
 
-#name {
-  margin-right: 5.625em;
+#from {
+  margin-right: 0.625em;
+  font-size: 0.9375em;
+  font-weight: 500;
 }
 
-#email {
-  margin-right: 0.375em;
+#to {
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
 }
 
 #message {
-  margin-right: 4.375em; 
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
+}
+
+#email {
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
 }
 
 #form div {
@@ -188,13 +253,13 @@ label {
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
-  border: 0.75em groove var(--quaternary);
-  border-radius: 0.625em;
 }
 
 #submit {
+  font-size: 0.9375em;
+  font-weight: 600;
   color: var(--secondary);
-  background-color: var(--primary);
+  background-color: var(--tertiary);
   border: 0.3125em groove var(--quaternary);
   border-radius: 0.625em;
   margin-left: 38.75em;
@@ -216,14 +281,12 @@ label {
 
 #Resume h1 {
   font-weight: 700;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 2.1875em;
   text-decoration: underline;
 }
 
 #Resume h2 {
   font-weight: 600;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 1.875em;
   text-decoration: underline;
 }
@@ -231,9 +294,9 @@ label {
 /*Footer component styling */
 #foot {
   color: var(--secondary);
+  background-color: var(--primary);
   text-align: center;
   font-size: 1em;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 

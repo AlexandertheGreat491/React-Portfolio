@@ -12,16 +12,16 @@ import juliasChildren from "../../assets/projects/Julias_Children_Screenshot_upd
 import weatherDashbord from "../../assets/projects/Weather Dashboard.jpg";
 
 // imports the image for the Social-Network-API
-import socialNetwork from "../../assets/projects/Social-Network-API.jpg";
+import googleBooks from "../../assets/projects/googel_books_screenshot.jpg";
 
 // imports the image for the PWA-Text-Editor app
 import textEditor from "../../assets/projects/app_screenshot.jpg";
 
 // imports the image for the E-Commerce-Back-end
-import eCommerce from "../../assets/projects/E_Commerce_Backend.jpg";
+import whatsSoap from "../../assets/projects/whats-soap_screenshot.jpg";
 
 // imports the GitHub icon
-import {FaGithub} from 'react-icons/fa';
+import { FaGithub } from "react-icons/fa";
 
 function Project() {
   // six projects
@@ -45,10 +45,10 @@ function Project() {
       repo: "https://github.com/AlexandertheGreat491/furry-octo-succotash.git",
     },
     {
-      name: "Social-Network-API",
-      imgsrc: socialNetwork,
-      link: "https://vimeo.com/743245394",
-      repo: "https://github.com/AlexandertheGreat491/Social-Network-API.git",
+      name: "Book-Search-Engine",
+      imgsrc: googleBooks,
+      link: "https://desolate-atoll-15843.herokuapp.com/",
+      repo: "https://github.com/AlexandertheGreat491/Book-Search-Engine.git",
     },
     {
       name: "PWA-Text-Editor",
@@ -56,11 +56,12 @@ function Project() {
       link: "https://nameless-dawn-90589.herokuapp.com/",
       repo: "https://github.com/AlexandertheGreat491/PWA-Text-Editor.git",
     },
+
     {
-      name: "E-Commerce-Back-End",
-      imgsrc: eCommerce,
-      link: "https://vimeo.com/732172741",
-      repo: "https://github.com/AlexandertheGreat491/E-Commerce-Back-End.git",
+      name: "What's Soap?",
+      imgsrc: whatsSoap,
+      link: "https://whats-soap.herokuapp.com/",
+      repo: "https://github.com/AlexandertheGreat491/whats_soap.git",
     },
   ];
 
@@ -73,14 +74,26 @@ function Project() {
         {projects.map((project) => (
           <div key={project.name}>
             <div
-              className="card mt-5 container align-items-center"
-              style={{ backgroundImage: `url(${project.imgsrc})`, width: '18.75em', height: '25em' }} 
+              className="card mt-3 mb-2 container"
+              style={{
+                backgroundImage: `url(${project.imgsrc})`,
+                width: "12.5em",
+                height: "12.5em",
+              }}
             >
-              <a className="ml-5 mr-5 mb-5" href={project.link}>
+              <a
+                id="link"
+                className="mt-2 ms-3 justify-content-center"
+                href={project.link}
+              >
                 {project.name}
               </a>
-              <a style={{width:'20%'}} href={project.repo}>
-                <FaGithub/>
+              <a
+                className="ms-5"
+                style={{ width: "30%", height: "30%" }}
+                href={project.repo}
+              >
+                <FaGithub />
               </a>
             </div>
           </div>
@@ -91,3 +104,5 @@ function Project() {
 }
 
 export default Project;
+
+// FaGithub icon found at https://react-icons.github.io/react-icons/icons?name=fa

@@ -1,75 +1,75 @@
 // imports react
 import React, { useState } from "react";
-// validates an email address entered by a user against the regex
-import { validateEmail } from "../../utils/helpers";
+import { send } from "emailjs-com";
 
 function Contact() {
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
+  
+  const [toSend, setToSend] = useState({
+    from_name: '',
+    to_name: '',
+    message: '',
+    reply_to: '',
   });
-  const [errorMessage, setErrorMessage] = useState("");
-  const { name, email, message } = formState;
-  const handleSubmit = (e) => {
+
+  const onSubmit = (e) => {
     e.preventDefault();
-    if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log("Form", formState);
-    }
+    send(
+      'service_8wr5jg6',
+      'template_rh1ld4d',
+      toSend,
+      'VAttkBUX6Azj6oY7o'
+    )
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+      });
   };
+
   const handleChange = (e) => {
-    if (e.target.name === "email") {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage("Your email is invalid!");
-      } else {
-        setErrorMessage("");
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage("");
-      }
-    }
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
+  
+//references https://medium.com/geekculture/how-to-send-emails-from-a-form-in-react-emailjs-6cdd21bb4190
   return (
-    <section>
-      <h1 id="contact" className="mb-5">Contact Me</h1>
-      <form id="form" onSubmit={handleSubmit}>
-        <div>
-          <label id="name" className="mb-3" htmlFor="name">Name:</label>
-          <input
-            type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label id="email" className="mb-3" htmlFor="email">Email address:</label>
-          <input
-            type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleSubmit}
-          />
-        </div>
-        <div>
-          <label id="message" className="mb-2" htmlFor="message">Message:</label>
-          <textarea
-            name="message"
-            rows="5"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
+    <section className="card contactform ms-5">
+      <form id="form" className="contactform card-body" onSubmit={onSubmit}>
+        <h1 id="contact" className="mb-4 card-header">
+          Contact Me
+        </h1>
+        <label id="from" htmlFor="from_name">From:</label>
+        <input
+          type="text"
+          name="from_name"
+          placeholder="from name"
+          value={toSend.from_name}
+          onChange={handleChange}
+        />
+        <label id="to" htmlFor="to_name">To:</label>
+        <input
+          type="text"
+          name="to_name"
+          placeholder="to name"
+          value={toSend.to_name}
+          onChange={handleChange}
+        />
+        <label id="message" htmlFor="message">Message:</label>
+        <input
+          type="text"
+          name="message"
+          placeholder="Your message"
+          value={toSend.message}
+          onChange={handleChange}
+        />
+        <label id="email" htmlFor="reply_to">Email:</label>
+        <input
+          type="text"
+          name="reply_to"
+          placeholder="Your email"
+          value={toSend.reply_to}
+          onChange={handleChange}
+        />
         <button className="mt-2 mb-2" id="submit" type="submit">
           Submit
         </button>
