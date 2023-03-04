@@ -60,10 +60,9 @@ header h1 {
   color: var(--tertiary);
   font-weight: 700;
   font-size: 1.25em;
-  margin-top: 1.875em;
   border: 0.3125em groove var(--quaternary);
   border-radius: 0.625em;
-  width: 20%;
+  margin-left: 1em;
 }
 
 #navigation {
@@ -71,6 +70,11 @@ header h1 {
   flex-direction: column;
   flex-wrap: wrap;
   list-style: none;
+}
+
+#navheader {
+  font-size: 2.5em;
+  font-weight: 700;
 }
 
 /*About component styling*/

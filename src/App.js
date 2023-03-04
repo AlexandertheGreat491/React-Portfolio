@@ -1,10 +1,17 @@
 import React, { useState } from 'react';
+// imports the Header component
 import Header from "./components/Header"
+// imports the Project component
 import Project from "./components/Project"
+// imports the Foot component
 import Footer from "./components/Footer"
+// imports the About component
 import About from "./components/About"
+// imports the Contact component
 import Contact from "./components/Contact"
+// imports the Resume component
 import Resume from "./components/Resume"
+// imports the Nav component
 import Nav from "./components/Nav"
 import './App.css';
 

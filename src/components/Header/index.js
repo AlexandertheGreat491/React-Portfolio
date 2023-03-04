@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function Header() {
-    return (
-        <header className='container col align-self-center col-sm col-md col-lg col-xl'>
-            <h1 className='text-left d-flex flex-row'>Alex Van Dyke</h1>
-        </header>
-    );
+  return (
+    <header className="col-12 d-inline-flex pb-2">
+      <div>
+        <h1 id="navheader" className="d-inline-flex w-100 justify-cotent-center ms-4">Alex Van Dyke</h1>
+      </div>
+    </header>
+  );
 }
 
 export default Header;
