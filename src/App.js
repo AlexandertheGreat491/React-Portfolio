@@ -11,6 +11,7 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 // imports the Resume component
 import Resume from "./components/Resume"
+// imports the Nav component
 import Nav from "./components/Nav"
 import './App.css';
 
