@@ -8,7 +8,7 @@ function Nav(props) {
   } = props;
 
   return (
-  <nav id='navigation' className='container justify-content-center d-inline-flex flex-row mt-3 w-100'>
+  <nav id='navigation' className='container justify-content-center d-inline-flex flex-row mt-5 w-100'>
     {categories.map((category) => (
                 <button id='nav-item'  key={category.name}
                     className={`${currentCategory.name === category.name && 'navActive'
