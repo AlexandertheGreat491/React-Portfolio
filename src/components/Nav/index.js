@@ -17,7 +17,7 @@ function Nav(props) {
                 <button id='nav-item'   key={category.name}
                     className={`${currentCategory.name === category.name && 'navActive'
                        }`} style={{width:"20%", height: "15%"}} >
-                        <FaAngleRight id='angle'/>
+                        <FaAngleRight id='angle' className='m-1'/>
                     <span onClick={() => setCurrentCategory(category)}>
                         {category.name}
                     </span>
