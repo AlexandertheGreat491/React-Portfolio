@@ -1,4 +1,5 @@
 import React from 'react';
+// imports the right angle arrow icon
 import { FaAngleRight } from 'react-icons/fa';
 
 function Nav(props) {
