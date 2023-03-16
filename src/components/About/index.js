@@ -40,7 +40,7 @@ function About() {
             alt="profile"
             className="ms-4"
           />
-          <div className="col" style={{ position: "relative", top: "-40px" }}>
+          <div className="col" style={{ position: "relative", height: "45%" }}>
             <p id="bio" className="mt-5">
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
