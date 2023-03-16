@@ -8,6 +8,7 @@ import profileImage from "../../assets/images/profile picture.JPG";
 import mernLogo from "../../assets/images/MERN-LOGO.jpg";
 
 // About-Me section of the portfolio
+
 // reference https://commons.wikimedia.org/wiki/File:MERN-logo.png
 
 function About() {
