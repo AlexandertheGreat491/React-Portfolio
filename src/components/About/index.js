@@ -29,9 +29,9 @@ function About() {
             <img
               id="handsome"
               src={profileImage}
-              style={{ width: "25%", height: "20%" }}
+              style={{ width: "25%", height: "25%" }}
               alt="profile"
-              className="ms-4 mt-3"
+              className="mt-3"
             />
             <p id="bio" className="mt-5">
               I am a new developer leveraging a background in education,
