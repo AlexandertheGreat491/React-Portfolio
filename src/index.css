@@ -103,7 +103,7 @@ header h1 {
   color: var(--secondary);
   font-size: 1.125em;
   font-weight: 600;
-  width: 78%;
+  width: 65%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
