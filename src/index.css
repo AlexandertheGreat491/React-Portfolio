@@ -113,7 +113,6 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  float: right;
   position: relative;
 }
 
