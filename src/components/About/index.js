@@ -16,7 +16,7 @@ function About() {
     <article
       id="about"
       className="container"
-      style={{ width: "60%", height: "60%" }}
+      style={{ width: "75%", height: "60%" }}
     >
       <section>
         <div className="col">
