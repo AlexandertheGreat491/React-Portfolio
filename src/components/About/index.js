@@ -16,7 +16,7 @@ import cityImage from "../../assets/images/City2.jpg";
 
 function About() {
   return (
-    <article id="about" className="container">
+    <article id="about" className="container" style={{width: "60%", height:"60%"}}>
       <section>
         <div
           id="top"

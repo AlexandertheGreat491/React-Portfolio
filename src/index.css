@@ -120,8 +120,6 @@ header h1 {
   position: relative;
   border: 0.9375em groove var(--quaternary);
   border-radius: 0.9375em;
-  width: 200em;
-  height: 60em;
   margin-bottom: 30em;
 }
 
