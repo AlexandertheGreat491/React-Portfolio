@@ -7,20 +7,18 @@ import profileImage from "../../assets/images/profile picture.JPG";
 // imports the MERN logo
 import mernLogo from "../../assets/images/MERN-LOGO.jpg";
 
-
-
 // About-Me section of the portfolio
 // reference https://commons.wikimedia.org/wiki/File:MERN-logo.png
 
 function About() {
   return (
-    <article id="about" className="container" style={{width: "60%", height:"60%"}}>
+    <article
+      id="about"
+      className="container"
+      style={{ width: "60%", height: "60%" }}
+    >
       <section>
-        <div
-          id="top"
-          className="col"
-          
-        >
+        <div id="top" className="col">
           <h2 id="me" className="mt-4">
             About Me
           </h2>
