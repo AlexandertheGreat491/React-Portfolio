@@ -116,6 +116,10 @@ header h1 {
   position: relative;
 }
 
+#bird {
+  color: var(--quaternary);
+}
+
 #about {
   background-color: var(--primary);
   display: flex;
