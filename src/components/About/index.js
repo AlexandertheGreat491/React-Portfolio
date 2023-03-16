@@ -26,7 +26,7 @@ function About() {
           <img
             id="handsome"
             src={profileImage}
-            style={{ width: "20%" }}
+            style={{ width: "25%", height: "20%" }}
             alt="profile"
             className="ms-4"
           />
