@@ -6,7 +6,7 @@ import profileImage from "../../assets/images/profile picture.JPG";
 
 // About-Me section of the portfolio
 
-// reference https://commons.wikimedia.org/wiki/File:MERN-logo.png
+
 
 import { FaEarlybirds } from "react-icons/fa";
 
