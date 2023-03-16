@@ -18,7 +18,7 @@ function About() {
       style={{ width: "60%", height: "60%" }}
     >
       <section>
-        <div id="top" className="col">
+        <div className="col">
           <h2 id="me" className="mt-4">
             About Me
           </h2>

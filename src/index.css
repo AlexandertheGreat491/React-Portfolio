@@ -123,10 +123,7 @@ header h1 {
   margin-bottom: 30em;
 }
 
-#top {
-  border: 5px solid black;
-  border-radius: 3px;
-}
+
 
 #stack {
   color: var(--secondary);
