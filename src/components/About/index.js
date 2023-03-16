@@ -6,7 +6,6 @@ import profileImage from "../../assets/images/profile picture.JPG";
 
 // About-Me section of the portfolio
 
-
 // imports the Earlybirds icon
 import { FaEarlybirds } from "react-icons/fa";
 
