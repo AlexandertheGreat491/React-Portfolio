@@ -7,9 +7,7 @@ import profileImage from "../../assets/images/profile picture.JPG";
 // imports the MERN logo
 import mernLogo from "../../assets/images/MERN-LOGO.jpg";
 
-// imports the background image
-import cityImage from "../../assets/images/City2.jpg";
-// reference https://www.inc.com/logan-chierotti/the-future-of-transportation-is-straight-outta-science-fiction.html
+
 
 // About-Me section of the portfolio
 // reference https://commons.wikimedia.org/wiki/File:MERN-logo.png
@@ -21,14 +19,7 @@ function About() {
         <div
           id="top"
           className="col"
-          style={{
-            backgroundImage: `url(${cityImage})`,
-            // backgroundSize: "cover",
-            backgroudRepeat: "no-repeat",
-            marginTop: "10px",
-            height: "100%",
-            margin: "10px",
-          }}
+          
         >
           <h2 id="me" className="mt-4">
             About Me
