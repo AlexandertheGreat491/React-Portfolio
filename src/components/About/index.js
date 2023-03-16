@@ -4,8 +4,6 @@ import React from "react";
 // imports my profile picture
 import profileImage from "../../assets/images/profile picture.JPG";
 
-
-
 // About-Me section of the portfolio
 
 // reference https://commons.wikimedia.org/wiki/File:MERN-logo.png
@@ -24,17 +22,19 @@ function About() {
           <h2 id="me" className="mt-4">
             About Me
           </h2>
-          
-          <div className="col ms-5" style={{ position: "relative", height: "45%" }}>
-          <img
-            id="handsome"
-            src={profileImage}
-            style={{ width: "25%", height: "20%" }}
-            alt="profile"
-            className="ms-4"
-          />
+
+          <div
+            className="col ms-5"
+            style={{ position: "relative", height: "45%" }}
+          >
+            <img
+              id="handsome"
+              src={profileImage}
+              style={{ width: "25%", height: "20%" }}
+              alt="profile"
+              className="ms-4"
+            />
             <p id="bio" className="mt-5">
-            
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
               on how people interact with technology, providing support to
