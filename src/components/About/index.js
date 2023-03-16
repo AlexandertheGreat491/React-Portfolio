@@ -27,7 +27,7 @@ function About() {
             backgroudRepeat: "no-repeat",
             marginTop: "10px",
             height: "100%",
-            margin: "10px"
+            margin: "10px",
           }}
         >
           <h2 id="me" className="mt-4">
@@ -41,7 +41,6 @@ function About() {
             className="ms-4"
           />
           <div className="col" style={{ position: "relative", top: "-40px" }}>
-            
             <p id="bio" className="mt-5">
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
