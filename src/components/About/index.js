@@ -4,25 +4,28 @@ import React from "react";
 // imports my profile picture
 import profileImage from "../../assets/images/profile picture.JPG";
 
-// imports the MERN logo
-import mernLogo from "../../assets/images/MERN-LOGO.jpg";
+
 
 // About-Me section of the portfolio
 
 // reference https://commons.wikimedia.org/wiki/File:MERN-logo.png
+
+import { FaEarlybirds } from "react-icons/fa";
 
 function About() {
   return (
     <article
       id="about"
       className="container"
-      style={{ width: "75%", height: "60%" }}
+      style={{ width: "60%", height: "60%" }}
     >
       <section>
         <div className="col">
           <h2 id="me" className="mt-4">
             About Me
           </h2>
+          
+          <div className="col ms-5" style={{ position: "relative", height: "45%" }}>
           <img
             id="handsome"
             src={profileImage}
@@ -30,8 +33,8 @@ function About() {
             alt="profile"
             className="ms-4"
           />
-          <div className="col" style={{ position: "relative", height: "45%" }}>
             <p id="bio" className="mt-5">
+            
               I am a new developer leveraging a background in education,
               military intelligence, and finance to provide unique perspectives
               on how people interact with technology, providing support to
@@ -41,13 +44,7 @@ function About() {
               design and development and is currently completing a full-stack
               web development bootcamp through the University of Minnesota.
               <br></br>
-              <img
-                id="stack"
-                src={mernLogo}
-                alt="stack"
-                style={{ width: "20%" }}
-                className="mt-1 mb-2"
-              />
+              <FaEarlybirds></FaEarlybirds>
               My strengths are in creativity, teamwork, building projects,
               customer service, and research as a result of spending four years
               in Naval intelligence, working collaboratively on a team and
