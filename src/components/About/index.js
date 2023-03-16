@@ -30,7 +30,7 @@ function About() {
             margin: "10px"
           }}
         >
-          <h2 id="me" className="mb-5">
+          <h2 id="me" className="mt-4">
             About Me
           </h2>
           <img
