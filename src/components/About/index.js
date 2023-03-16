@@ -42,8 +42,11 @@ function About() {
               passionate about developing apps with a focus on mobile-first
               design and development and is currently completing a full-stack
               web development bootcamp through the University of Minnesota.
-              
-              <FaEarlybirds id="bird" className="align-self-center" style={{width:"15%", height: "15%"}}></FaEarlybirds>
+              <FaEarlybirds
+                id="bird"
+                className="align-self-center"
+                style={{ width: "15%", height: "15%" }}
+              ></FaEarlybirds>
               My strengths are in creativity, teamwork, building projects,
               customer service, and research as a result of spending four years
               in Naval intelligence, working collaboratively on a team and
