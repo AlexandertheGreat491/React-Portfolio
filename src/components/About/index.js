@@ -44,7 +44,7 @@ function About() {
               web development bootcamp through the University of Minnesota.
               <FaEarlybirds
                 id="bird"
-                className="align-self-center"
+                className="align-self-center m-2"
                 style={{ width: "15%", height: "15%" }}
               ></FaEarlybirds>
               My strengths are in creativity, teamwork, building projects,
