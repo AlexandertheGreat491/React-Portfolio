@@ -20,6 +20,7 @@ import textEditor from "../../assets/projects/app_screenshot.jpg";
 // imports the image for the E-Commerce-Back-end
 import whatsSoap from "../../assets/projects/whats-soap_screenshot.jpg";
 
+// icons imported
 // imports the GitHub icon
 import { FaGithub } from "react-icons/fa";
 
