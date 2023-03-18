@@ -85,23 +85,24 @@ function Project() {
               className="card m-2 container"
               style={{
                 backgroundImage: `url(${project.imgsrc})`,
-                width: "17em",
+                width: "16em",
                 height: "12.5em",
               }}
             >
               <a
                 id="link"
-                className="mt-2 ms-3 justify-content-center"
+                className="align-items-center"
                 href={project.link}
               >
                 {project.name}
+                <FaGithub className="ms-2" />
               </a>
               <a
-                className="ms-5"
-                style={{ width: "30%", height: "30%" }}
+                className="align-items-center"
+                style={{ width: "20%", height: "30%" }}
                 href={project.repo}
               >
-                <FaGithub />
+                
               </a>
             </div>
           </div>

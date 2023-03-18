@@ -198,6 +198,10 @@ header h1 {
   background-color: var(--secondary);
 }
 
+#git {
+  justify-content: center;
+}
+
 /* Projects header styling */
 
 #six {
