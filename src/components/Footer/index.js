@@ -2,6 +2,7 @@
 import React from "react";
 
 // imports the icons
+// imports the Github icon
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
