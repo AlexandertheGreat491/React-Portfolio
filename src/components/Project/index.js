@@ -89,11 +89,7 @@ function Project() {
                 height: "12.5em",
               }}
             >
-              <a
-                id="link"
-                className="align-items-center"
-                href={project.link}
-              >
+              <a id="link" className="align-items-center" href={project.link}>
                 {project.name}
                 <FaGithub className="ms-2" />
               </a>
@@ -101,9 +97,7 @@ function Project() {
                 className="align-items-center"
                 style={{ width: "20%", height: "30%" }}
                 href={project.repo}
-              >
-                
-              </a>
+              ></a>
             </div>
           </div>
         ))}
