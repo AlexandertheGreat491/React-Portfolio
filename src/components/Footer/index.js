@@ -1,5 +1,6 @@
 //imports react
 import React from "react";
+
 // imports the icons
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
