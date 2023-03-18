@@ -77,7 +77,7 @@ function Project() {
               className="card mt-3 mb-2 container"
               style={{
                 backgroundImage: `url(${project.imgsrc})`,
-                width: "18em",
+                width: "17em",
                 height: "12.5em",
               }}
             >
