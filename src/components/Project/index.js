@@ -71,11 +71,14 @@ function Project() {
     <div className="ms-5">
       <h2 id="six" className="mb-4">
         Projects
-        <FaProjectDiagram id="diagram" className="ms-2" style={{width:"3%", height: "3%"}}></FaProjectDiagram>
+        <FaProjectDiagram
+          id="diagram"
+          className="ms-2"
+          style={{ width: "3%", height: "3%" }}
+        ></FaProjectDiagram>
       </h2>
-      
-      <div id="projects" style={{width:"95%", height: "65%"}}>
-      
+
+      <div id="projects" style={{ width: "95%", height: "65%" }}>
         {projects.map((project) => (
           <div key={project.name}>
             <div
