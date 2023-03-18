@@ -202,7 +202,6 @@ header h1 {
 
 #six {
   color: var(--secondary);
-  justify-content: center;
   text-decoration: underline;
   text-align: center;
   font-weight: 700;

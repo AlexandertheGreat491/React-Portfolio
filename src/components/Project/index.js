@@ -70,7 +70,8 @@ function Project() {
       <h2 id="six" className="mb-3">
         Projects
       </h2>
-      <div id="projects" style={{width:"70%", height: "60%"}}>
+      <div id="projects" style={{width:"95%", height: "65%"}}>
+      
         {projects.map((project) => (
           <div key={project.name}>
             <div
