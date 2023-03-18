@@ -71,8 +71,9 @@ function Project() {
     <div className="ms-5">
       <h2 id="six" className="mb-4">
         Projects
+        <FaProjectDiagram id="diagram"></FaProjectDiagram>
       </h2>
-      <FaProjectDiagram id="diagram"></FaProjectDiagram>
+      
       <div id="projects" style={{width:"95%", height: "65%"}}>
       
         {projects.map((project) => (
