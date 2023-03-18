@@ -6,6 +6,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 // imports the Linkedin icon
 import { FaLinkedin } from "react-icons/fa";
+// imports the StackOverflow icon
 import { FaStackOverflow } from "react-icons/fa";
 
 function Footer() {
