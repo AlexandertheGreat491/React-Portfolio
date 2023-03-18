@@ -23,6 +23,8 @@ import whatsSoap from "../../assets/projects/whats-soap_screenshot.jpg";
 // imports the GitHub icon
 import { FaGithub } from "react-icons/fa";
 
+import { FaProjectDiagram } from "react-icons/fa";
+
 function Project() {
   // six projects
   const projects = [
@@ -70,6 +72,7 @@ function Project() {
       <h2 id="six" className="mb-4">
         Projects
       </h2>
+      <FaProjectDiagram id="diagram"></FaProjectDiagram>
       <div id="projects" style={{width:"95%", height: "65%"}}>
       
         {projects.map((project) => (
