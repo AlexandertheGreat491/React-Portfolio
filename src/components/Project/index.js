@@ -74,7 +74,7 @@ function Project() {
         {projects.map((project) => (
           <div key={project.name}>
             <div
-              className="card mt-3 mb-2 container"
+              className="card m-2 container"
               style={{
                 backgroundImage: `url(${project.imgsrc})`,
                 width: "17em",
