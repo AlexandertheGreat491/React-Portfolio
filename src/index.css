@@ -186,6 +186,7 @@ header h1 {
   width: 25em;
 }
 
+/* project name styling */
 #projects a {
   color: var(--quaternary);
   font-weight: 700;
