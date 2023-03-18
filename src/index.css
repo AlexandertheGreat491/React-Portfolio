@@ -197,7 +197,9 @@ header h1 {
   border-radius: 0.25em;
   background-color: var(--secondary);
 }
+
 /* Projects header styling */
+
 #six {
   color: var(--secondary);
   justify-content: center;
