@@ -23,6 +23,7 @@ import whatsSoap from "../../assets/projects/whats-soap_screenshot.jpg";
 // imports the GitHub icon
 import { FaGithub } from "react-icons/fa";
 
+// imports the ProjectDiagram icon
 import { FaProjectDiagram } from "react-icons/fa";
 
 function Project() {
