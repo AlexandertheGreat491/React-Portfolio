@@ -70,14 +70,14 @@ function Project() {
       <h2 id="six" className="mb-3">
         Projects
       </h2>
-      <div id="projects">
+      <div id="projects" style={{width:"60%", height: "60%"}}>
         {projects.map((project) => (
           <div key={project.name}>
             <div
               className="card mt-3 mb-2 container"
               style={{
                 backgroundImage: `url(${project.imgsrc})`,
-                width: "12.5em",
+                width: "18em",
                 height: "12.5em",
               }}
             >
