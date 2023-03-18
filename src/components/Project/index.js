@@ -67,7 +67,7 @@ function Project() {
 
   return (
     <div>
-      <h2 id="six" className="m-4">
+      <h2 id="six" className="mb-3">
         Projects
       </h2>
       <div id="projects">
