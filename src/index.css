@@ -189,7 +189,7 @@ header h1 {
 #projects a {
   color: var(--quaternary);
   font-weight: 700;
-  font-size: 0.9375em;
+  font-size: 1.1em;
 }
 
 #link {
