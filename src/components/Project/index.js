@@ -66,7 +66,7 @@ function Project() {
   ];
 
   return (
-    <div>
+    <div className="ms-5">
       <h2 id="six" className="mb-3">
         Projects
       </h2>
