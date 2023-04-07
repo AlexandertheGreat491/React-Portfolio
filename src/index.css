@@ -68,10 +68,13 @@ header h1 {
   border: 0.3125em groove var(--quaternary);
   border-radius: 0.625em;
   margin-left: 1em;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #navigation {
-  display: inline-grid;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
