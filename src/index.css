@@ -60,34 +60,36 @@ header h1 {
 
 /*Nav component styling*/
 
-#nav-item {
+#navigation {
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  display: inline-flex;
   background-color: var(--primary);
+  border: 0.3125em groove var(--quaternary);
+  border-radius: 0.625em;
+}
+
+#nav-item {
   color: var(--tertiary);
   font-weight: 700;
   font-size: 1.25em;
-  border: 0.3125em groove var(--quaternary);
-  border-radius: 0.625em;
   margin-left: 1em;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-#navigation {
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style: none;
-}
+
 
 #navheader {
   font-size: 2.5em;
   font-weight: 700;
 }
 
-.navActive {
-  
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
+
+
+
 
 #angle {
   color: var(--quaternary);
