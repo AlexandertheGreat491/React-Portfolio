@@ -78,7 +78,7 @@ header h1 {
   flex-direction: column;
   flex-wrap: wrap;
   display: inline-flex;
-  list-style-position: inside;
+  text-decoration: underline;
 }
 
 #navheader {

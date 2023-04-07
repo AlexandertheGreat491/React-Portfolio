@@ -15,7 +15,7 @@ function Nav(props) {
         <li
           id="nav-item"
           key={category.name}
-          className={`${currentCategory.name === category.name && "navActive" && "d-inline-flex" && "align-items-center" && "position-absolute" && "m-2"}`}
+          className={`${currentCategory.name === category.name && "navActive" && "d-inline-flex" && "align-items-center" && "position-absolute" && "mb-3"}`}
           style={{ width: "15%", height: "15%" }}
         >
           <span className="d-inline-flex" onClick={() => setCurrentCategory(category)}>
