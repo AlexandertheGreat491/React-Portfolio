@@ -8,20 +8,20 @@ function Nav(props) {
   return (
     <nav
       id="navigation"
-      className="d-inline-flex justify-content-center navbar navbar-expand{-sm|-md|-lg|-xl|-xxl} container-fluid m-2 position-relative"
+      className="d-inline-flex justify-content-center navbar dropdown navbar-expand{-sm|-md|-lg|-xl|-xxl} container-fluid m-2 position-relative"
     >
       {categories.map((category) => (
         <button
           id="nav-item"
           key={category.name}
-          className={`${currentCategory.name === category.name && "navActive"}`}
+          className={`${currentCategory.name === category.name && "navActive" && "d-inline-flex" && "align-items-center" && "position-relative"}`}
           style={{ width: "12%", height: "12%" }}
         >
           <FaAngleRight
             id="angle"
-            className="m-1 position-relative d-inline-flex align-items-center"
+            className="position-relative d-inline-flex"
           />
-          <span onClick={() => setCurrentCategory(category)}>
+          <span className="d-inline-flex" onClick={() => setCurrentCategory(category)}>
             {category.name}
           </span>
         </button>
