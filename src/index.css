@@ -71,8 +71,8 @@ header h1 {
 }
 
 #navigation {
-  display: flex;
-  flex-direction: column;
+  display: inline-grid;
+  flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
 }
