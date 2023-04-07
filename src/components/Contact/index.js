@@ -32,6 +32,7 @@ function Contact() {
   };
   
 //references https://medium.com/geekculture/how-to-send-emails-from-a-form-in-react-emailjs-6cdd21bb4190
+
   return (
     <section className="card contactform ms-5" style={{width:"90%", height:"70%"}}>
       <form id="form" className="contactform card-body" onSubmit={onSubmit}>
