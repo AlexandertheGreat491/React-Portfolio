@@ -11,7 +11,7 @@ function Nav(props) {
     
     <nav
       id="navigation"
-      className="d-inline-flex justify-content-center navbar dropdown navbar-expand{-sm|-md|-lg|-xl|-xxl} container-fluid m-2 position-relative"
+      className="d-inline-flex justify-content-center navbar dropdown navbar-expand{-sm|-md|-lg|-xl|-xxl} container-fluid ms-5 mt-2 position-relative"
       style={{width:"60%", height: "25%"}}
     >
       {categories.map((category) => (
