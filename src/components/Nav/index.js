@@ -1,7 +1,7 @@
 import React from "react";
 
 // imports the right angle arrow icon
-import { FaAngleRight } from "react-icons/fa";
+//import { FaAngleRight } from "react-icons/fa";
 
 
 function Nav(props) {
@@ -18,13 +18,10 @@ function Nav(props) {
         <li
           id="nav-item"
           key={category.name}
-          className={`${currentCategory.name === category.name && "navActive" && "d-inline-block" && "align-items-center" && "position-relative" && "m-2"}`}
+          className={`${currentCategory.name === category.name && "navActive" && "d-inline-flex" && "align-items-center" && "position-absolute" && "m-2"}`}
           style={{ width: "15%", height: "15%" }}
         >
-          <FaAngleRight
-            id="angle"
-            className="position-relative d-inline-flex"
-          />
+          
           <span className="d-inline-flex" onClick={() => setCurrentCategory(category)}>
             {category.name}
           </span>

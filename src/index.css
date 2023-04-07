@@ -61,7 +61,7 @@ header h1 {
 /*Nav component styling*/
 
 #navigation {
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   list-style: none;
   display: inline-flex;
@@ -77,6 +77,8 @@ header h1 {
   margin-left: 1em;
   flex-direction: column;
   flex-wrap: wrap;
+  display: inline-flex;
+  list-style-position: inside;
 }
 
 #navheader {
