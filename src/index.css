@@ -79,17 +79,10 @@ header h1 {
   flex-wrap: wrap;
 }
 
-
-
 #navheader {
   font-size: 2.5em;
   font-weight: 700;
 }
-
-
-
-
-
 
 #angle {
   color: var(--quaternary);
