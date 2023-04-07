@@ -14,14 +14,14 @@ function Nav(props) {
      
     {categories.map((category) => (
      
-                <li id='nav-item'   key={category.name}
+                <button id='nav-item'   key={category.name}
                     className={`${currentCategory.name === category.name && 'navActive'
                        }`} style={{width:"15%", height: "15%"}} >
                         <FaAngleRight id='angle' className='m-1 position-relative d-inline-flex'/>
                     <span onClick={() => setCurrentCategory(category)}>
                         {category.name}
                     </span>
-                </li> 
+                </button> 
             ))}
             
   </nav>
